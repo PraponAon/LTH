@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saeree(r) Release 3.5.0_2007-07-13 -Saeree Smart Suite ERP,CRM- (c) 1999-2008 Grandlinux Solution Co.,ltd. (r); Implementation: 2008-06-01 - Grandlinux Solution Co.,Ltd.-->
+<!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.com/dtd/adempiereTrl.dtd">-->
+<adempiereTrl language="th_TH" table="AD_Form">
+ <row id="100" trl="Y">
+  <value column="Name" original="Generate Invoices (manual)">สร้างใบแจ้งหนี้ (ด้วยมือ)</value>
+  <value column="Description" original="Select and generate invoices">เลือก และ สร้างใบแจ้งหนี้</value>
+  <value column="Help" original="Generate Invoices from Orders.  &#13;&#10;Select the orders to generate the invoice for.">สร้างใบแจ้งหนี้จากใบสั่งสินค้า&#13;
+เลือกใบสั่งสินค้าที่จะสร้างใบแจ้งหนี้</value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Import File Loader">ตัวอ่านไฟล์นำเข้า</value>
+  <value column="Description" original="Load flat Files into import tables">อ่าน flat Files เข้าไปใน ตารางนำเข้า</value>
+  <value column="Help" original="The Import File Loader parses the content of a flat file and loads it into import tables. Comments start with a '[' and end with a ']' and are ignored; example: [Some Heading].">ตัวอ่านไฟล์นำเข้า อ่าน(parses)ข้อมูลใน flat file และ นำเข้าไปใน ตารางนำเข้า&#13;
+คำอธิบายจะเริ่มด้วย '[' และ จบด้วย ']' และจะถูกละทิ้งไป; ตัวอย่าง: [หัวเรื่อง]</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Initial Client Setup">ตั้งระบบเริ่มต้นบริษัท</value>
+  <value column="Description" original="Initial new Client/Tenant Setup">ตั้งระบบเริ่มต้นบริษัท</value>
+  <value column="Help" original="Set up a new Client/Tenant of the system"></value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Material Transactions">รายการความเคลื่อนไหวสินค้า</value>
+  <value column="Description" original="Material Transactions">ความเคลื่อนไหวสินค้า</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Payment Allocation">การจัดสรรการจ่ายเงิน</value>
+  <value column="Description" original="Allocate invoices and payments">จัดสรรใบแจ้งหนี้ และการจ่ายเงิน</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Generate Charges">สร้างค่าธรรมเนียม</value>
+  <value column="Description" original="Generate Charges from natural accounts">สร้างค่าธรรมเนียมจากบัญชีธรรมชาติ</value>
+  <value column="Help" original="Use the upper portion to create new charges using the general charge accounts.  Use the lower portion to create charges based on the natural account.">ใช้ส่วนบนเพื่อสร้างค่าธรรมเนียนมใหม่ซึ่งใช้บัญชีค่าธรรมเนียมทั่วไป  ใช้ส่วนล่างเพื่อสร้างค่าธรรมเนียมตามบัญชีธรรมชาติ</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Payment Print/Export">พิมพ์/ส่งออก การจ่ายเงิน</value>
+  <value column="Description" original="Print or export your payments">พิมพ์ หรือ ส่งออก การจ่ายเงินของคุณ</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Payment Selection (manual)">การเลือกจ่ายเงิน (ทำเอง)</value>
+  <value column="Description" original="Manual Payment Selection">ทำการเลือกจ่ายเงินเอง</value>
+  <value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">เลือกใบแจ้งหนี้ของผู้จำหน่ายสินค้าสำหรับการจ่ายเงิน</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Matching PO-Receipt-Invoice">จับคู่ ใบสั่งซื้อ-ใบรับสินค้า-ใบแจ้งหนี้</value>
+  <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">จับคู่ ใบสั่งซื้อ-ใบรับสินค้า-ใบแจ้งหนี้ของผู้จำหน่าย</value>
+  <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">ให้แน่ใจว่า ใบรับสินค้าและใบแจ้งหนี้ ถูกประมวลผลแล้ว ถ้าคุณต้องการจับคู่ การนำส่งบางส่วน, ต้องแน่ใจว่า "จำนวนเดียวกัน" ไม่ได้ถูกเลือก</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Translation Import/Export">นำเข้า/ส่งออก การแปล</value>
+  <value column="Description" original="Import or Export Language Translation">นำเข้า หรือ ส่งออก การแปลภาษา</value>
+  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">นำเข้า/ส่งออก การแปล เข้าไป/ออกจาก xml สำหรับการแปลในเครื่องมือภายนอก โปรดสังเกตุไว้ว่า ภาษา ต้อง ทำงาน และ เป็น ภาษาระบบ</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Generate Shipments (manual)">สร้างการส่งสินค้า (ด้วยมือ)</value>
+  <value column="Description" original="Select and generate shipments">เลือก และ สร้างการส่งสินค้า</value>
+  <value column="Help" original="Generate Shipments from Orders.  &#13;&#10;Select the orders to generate the shipments for.">สร้างการส่งสินค้าจากใบสั่งสินค้า&#13;
+เลือกใบสั่งสินค้าเพื่อสร้างการส่งสินค้า</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="SQL Process">ประมวลผล SQL</value>
+  <value column="Description" original="Process SQL Statements">ประมวลผล ประโยค SQL</value>
+  <value column="Help" original="Process SQL DDL Statements">ประมวลผล ประโยค DDL SQL</value>
+ </row>
+ <row id="112" trl="Y">
+  <value column="Name" original="Merge Entities">รวม Entities</value>
+  <value column="Description" original="Merge From Entity to To Entity - Delete From">รวม Entity ต้นทางไปเป็น Entity ปลายทาง - ลบ Entity ต้นทาง</value>
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#13;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#13;&#10;The From entity (e.g. Customer A) is deleted. &#13;&#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#13;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#13;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.">&lt;i&gt;อันตราย - ให้แน่ใจในสิ่งที่คุณกำลังทำอยู่!&lt;/i&gt;&#13;
+ตัวอย่างทั้งหมดของ Entity ต้นทาง (ตัวอย่างเช่น ลูกค้า A) จะถูกเปลี่ยนเป็น Entity ปลายทาง (ตัวอย่างเช่น ลูกค้า B)&#13;
+Entity ต้นทาง (ตัวอย่างเช่น ลูกค้า A) จะถูกลบออกไป&#13;
+&lt;p&gt;&lt;b&gt;ไม่สามารถยกเลิกการเปลี่ยนแปลงที่เกิดขึ้นได้ !  กรุณาทำสำรองข้อมูลไว้ก่อน&lt;/b&gt; โปรดระลึกไว้เสมอว่าคุณอาจจะกำลังเปลี่ยนแปลงข้อมูลระเบียนประวัติ (ตัวอย่างเช่น ใบแจ้งหนี้, เป็นต้น) ! &lt;/p&gt;&#13;
+&lt;p&gt;&lt;b&gt;ผลข้างเคียง:&lt;/b&gt; การรวมสินค้านั้นคล้ายกับว่าจะทำให้ต้นทุนสินค้าผิดเพี้ยนไป; การรวมบริษัทคู่ค้าธุรกิจอาจทำให้ยอดคงค้างไม่ถูกต้อง  ตรวจสอบกับฝ่ายสนับสนุนการขายในเรื่องของสมนาคุณ&#13;
+&lt;p&gt;&lt;b&gt;ข้อจำกัด:&lt;/b&gt; ข้อขัดแย้งระหว่างบัญชีกับสินค้าคงคลังจะไม่ถูกแก้ไขในเวอร์ชั่นนี้</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="POS">ณ จุดขาย</value>
+  <value column="Description" original="Point Of Sales Terminal">เครื่องปลายทาง ณ จุดขาย</value>
+  <value column="Help" original="Enter Transactions via a POS Terminal.  Automatically, scans or credit card swipes are recongized.">ใส่ข้อมูลรายการธุรกรรมผ่านเครื่องปลายทาง ณ จุดขาย  สามารถใช้การสแกนหรือการอ่านบัตรเครดิตได้โดยอัตโนมัติ</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="BOM Drop">รายละเอียดบัญชีวัสดุ</value>
+  <value column="Description" original="Drop (expand) Bill of Materials">แสดงรายละเอียด (ขยาย) บัญชีวัสดุ (Bill of Materials)</value>
+  <value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!">แสดงรายละเอียด บัญชีวัสดุ (Bill of Materials) เข้าไปในใบสั่งสินค้า, ใบแจ้งหนี้, เป็นต้น เอกสารจำเป็นต้องอยู่ในขณะกำลังร่าง ให้แน่ใจว่ารายการที่อยู่ใน BOM นั้นอยู่ในรายการราคาของใบสั่งสินค้า, ใบแจ้งหนี้, เป็นต้น ไม่เช่นนั้นราคาจะเป็นศูนย์!</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Tree Maintenance">การจัดการ Tree</value>
+  <value column="Description" original="Maintain Trees">การจัดการ Tree</value>
+  <value column="Help" original="View and change trees. Maintain the entries in their specific Windows.">ดูและเปลี่ยน tree การจัดการรายการในหน้าต่างเฉพาะนั้นๆ</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Workflow Editor">ตัวแก้ไขเวิร์คโฟล</value>
+  <value column="Description" original="Edit Workflows">แก้ไขเวิร์คโฟล</value>
+  <value column="Help" original="Edit the graphical layout of workflows">แก้ไขผ้งกราฟิกของเวิร์คโฟล</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="Workflow Activities">กิจกรรมเวิร์คโฟล</value>
+  <value column="Description" original="My active workflow activities">กิจกรรมเวิร์คโฟลที่กำลังทำงานอยู่</value>
+  <value column="Help" original="View active worflow activities">ดูกิจกรรมเวิร์คโฟลที่กำลังทำงานอยู่</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="Archive Viewer">Archive Viewer</value>
+  <value column="Description" original="View automatically archived Documents">View automatically archived Documents</value>
+  <value column="Help" original="Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.">Depending on the Client Automatic Archive Level documents and reports are saved and available for view. In the Report Viewer you can manually archive Documents or Reports.  You can only view archives, if you have access to the original document.</value>
+ </row>
+ <row id="119" trl="Y">
+  <value column="Name" original="Performance Indicators">Performance Indicators</value>
+  <value column="Description" original="View Performance Indicators">View Performance Indicators</value>
+  <value column="Help" original="View all Performance Indicators and Goals">View all Performance Indicators and Goals</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Product Attribute Grid">Product Attribute Grid</value>
+  <value column="Description" original="Maintain Products with Attributes in a Table Grid">Maintain Products with Attributes in a Table Grid</value>
+  <value column="Help" original="Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.">Select one or two attributes if a Product Attribute and display/maintain products in a row or table grid.</value>
+ </row>
+ <row id="53001" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info">BOM &amp; Formula Info</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
+  <value column="Help" original="The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.&#10;&#10;You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.&#10;&#10;The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it">The BOM &amp; Formula Review option menu shows in two different panels the parent-component relationship for the product entered in the Product field.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+When you need to consult an implosion, click the implosion check box and enter the component you wish to consult and tick the Implosion check box.
+
+You need to introduce the parent product you want to see its components then click the OK button, next drag the left margin of the panel to the right and you will have the two panels.
+
+The left panel shows the BOM hierarchies in a tree form. The right panel shows the information connected with the BOM for every product in it</value>
+ </row>
+ <row id="53002" trl="Y">
+  <value column="Name" original="Product Configuration BOM">Product Configuration BOM</value>
+  <value column="Description" original="This form let create a product configure with multy level using options and variants">This form let create a product configure with multy level using options and variants</value>
+  <value column="Help" original="A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.&#10;&#10;The CBOM is used to dynamically create &quot;end-items&quot; that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by &quot;configurator&quot; software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to &quot;configure&quot; an end-item.">A configurable Bill of Material (CBOM) is used by industries that have multiple options and highly configurable products.
+
+The CBOM is used to dynamically create "end-items" that a company sells. The benefit of using CBOM structure is it reduces the work-effort needed to maintain product structures. The configurable BOM is most frequently driven by "configurator" software, however it can be enabled manually (manual maintenance is infrequent because its unwieldy to manage the number of permutaions and combinations of possible configurations) The development of the CBOM is dependent on having a Modular BOM structure in place (see Modular BOM). The Modular BOM structure provides the assemblies/sub-systems that can be selected to "configure" an end-item.</value>
+ </row>
+ <row id="53003" trl="Y">
+  <value column="Name" original="MRP Info">MRP Info</value>
+  <value column="Description" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+  <value column="Help" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+ </row>
+ <row id="53004" trl="Y">
+  <value column="Name" original="Planned Order Approval ">Planned Order Approval </value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.</value>
+  <value column="Help" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.&#10;&#10;When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.">A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates. when you approve a manufacturing planned order you convert it in a manufacturing order with the status of In Process.
+
+When you approve a planned order you are telling the system that the manufacturing order is ready to start its process with the approval you change the order status from Draft to In Process.</value>
+ </row>
+ <row id="53005" trl="N">
+  <value column="Name" original="CRP Info">Resource Load View to date</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+ </row>
+ <row id="53006" trl="Y">
+  <value column="Name" original="Resource Load View">Resource Load View</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+  <value column="Help" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+ </row>
+ <row id="53007" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue">Order Receipt &amp; Issue</value>
+  <value column="Description" original="Order Receipt &amp; Issue">Order Receipt &amp; Issue</value>
+  <value column="Help" original="The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.&#10;&#10;If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.&#10;&#10;&#10;If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.&#10;&#10;If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components&#10;&#10;The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).&#10;&#10;At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.&#10;&#10;The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.&#10;&#10;Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.&#10;&#10;">The form shows at the upper side static information around the product and the manufacturing resource where it has to be made, it also shows a summary of the quantities to be controlled in the MO such as the Original and delivered quantities and the Quantity to deliver for the MO up to date.
+
+If the production process requires production in batch, then the Qty Batchs shows the Number of batches the shop floor needs to do and the Qty Batch Size contains the size of every batch to be produced.
+
+
+If you want to issue the MO components before you receive the finished product you should tick the checkbox Is Delivery, this case is recommended when you have a long to medium lead time and you want to have the inventory quantities as reliable as possible at every moment.
+
+If you have small lead time and you wish to save clerk time then you must tick Is Backflush checkbox and you will receive the finished product at the same time you issue automatically the components
+
+The Backflush Group field is used when you want to issue just components belonging to this group. (This characteristic could not be included in the current version).
+
+At the lower part of the window you can find the list of every MO component, this can be modified according with the real products and quantities given to the shop floor.
+
+The quantities to be issued are selected with the checkbox at the first column of the list of components. If the actual quantity is different from the standard quantity showed in the column Qty to deliver you should edit this field to enter the right quantity to be issued.
+
+Finally a message box asks if you want to close the OM document, you should click the ok button if this MO does not have any more transactions and has to be closed.
+
+</value>
+ </row>
+ <row id="53008" trl="Y">
+  <value column="Name" original="Generate Movement Manual">Generate Movement Manual</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Generate Movement to a Order Distribution</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="53009" trl="Y">
+  <value column="Name" original="Payroll Action Notice">Payroll Action Notice</value>
+  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">Payroll Action Notice let entry the events that happend with any Employee</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="53010" trl="N">
+  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">Generate Shipments &amp; Invoices (manual)</value>
+  <value column="Description" original="Select and generate shipments &amp; Invoices">Select and generate shipments &amp; Invoices</value>
+  <value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">Generate Shipments &amp; Invoices from Orders.  
+Select the orders to generate the shipments &amp; Invoices for.</value>
+ </row>
+</adempiereTrl>

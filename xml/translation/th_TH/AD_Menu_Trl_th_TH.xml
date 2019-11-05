@@ -1,0 +1,3021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saeree(r) Release 3.5.0_2007-07-13 -Saeree Smart Suite ERP,CRM- (c) 1999-2008 Grandlinux Solution Co.,ltd. (r); Implementation: 2008-06-01 - Grandlinux Solution Co.,Ltd.-->
+<!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.com/dtd/adempiereTrl.dtd">-->
+<adempiereTrl language="th_TH" table="AD_Menu">
+ <row id="100" trl="Y">
+  <value column="Name" original="Invoice Inquiry">รายงานการแจ้งหนี้</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="101" trl="Y">
+  <value column="Name" original="Task">งาน</value>
+  <value column="Description" original="Maintain Tasks">การจัดการงาน</value>
+ </row>
+ <row id="102" trl="Y">
+  <value column="Name" original="Currency">สกุลเงิน</value>
+  <value column="Description" original="Maintain Currencies">การจัดการสกุลเงิน</value>
+ </row>
+ <row id="103" trl="Y">
+  <value column="Name" original="Currency Rate">อัตราแลกเปลี่ยน</value>
+  <value column="Description" original="Maintain Currency Conversion Rates">การจัดการอัตราแลกเปลี่ยนสกุลเงิน</value>
+ </row>
+ <row id="104" trl="Y">
+  <value column="Name" original="Calendar Year and Period">ปีและรอบบัญชีปฏิทิน</value>
+  <value column="Description" original="Maintain Calendars Years Periods">การจัดการปีและรอบบัญชีปฏิทิน</value>
+ </row>
+ <row id="105" trl="Y">
+  <value column="Name" original="Account Element">ผังบัญชี</value>
+  <value column="Description" original="Maintain Account Elements">การจัดการผังบัญชี</value>
+ </row>
+ <row id="106" trl="Y">
+  <value column="Name" original="Account Combination">บัญชีรวม</value>
+  <value column="Description" original="Maintain Valid Account Combinations ">การจัดการบัญชีรวมที่ถูกต้อง</value>
+ </row>
+ <row id="107" trl="Y">
+  <value column="Name" original="Unit of Measure">หน่วยวัด</value>
+  <value column="Description" original="Maintain Unit of Measure ">การจัดการหน่วยวัด</value>
+ </row>
+ <row id="108" trl="Y">
+  <value column="Name" original="Location">ที่ตั้ง</value>
+  <value column="Description" original="Maintain Location Address">การจัดการที่อยู่ของที่ตั้ง</value>
+ </row>
+ <row id="109" trl="Y">
+  <value column="Name" original="Country Region and City">ประเทศ รัฐ และจังหวัด</value>
+  <value column="Description" original="Maintain Countries Regions and Cities">การจัดการประเทศ รัฐ และจังหวัด</value>
+ </row>
+ <row id="110" trl="Y">
+  <value column="Name" original="Business Partner">บริษัทคู่ค้า</value>
+  <value column="Description" original="Maintain Business Partners">การจัดการบริษัทคู่ค้า</value>
+ </row>
+ <row id="111" trl="Y">
+  <value column="Name" original="Accounting Schema">โครงสร้างบัญชี</value>
+  <value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">การจัดการโครงสร้างบัญชี - การเปลี่ยนแปลงจะมีผลเมื่อคุณ login ใหม่อีกครั้ง</value>
+ </row>
+ <row id="113" trl="Y">
+  <value column="Name" original="Test">ทดสอบ</value>
+  <value column="Description" original="Test Screen">หน้าจอทดสอบ</value>
+ </row>
+ <row id="114" trl="Y">
+  <value column="Name" original="Attachment">เอกสารแนบ</value>
+  <value column="Description" original="Maintain Attachments">การจัดการเอกสารแนบ</value>
+ </row>
+ <row id="115" trl="Y">
+  <value column="Name" original="Preference">ค่าตามกำหนด</value>
+  <value column="Description" original="Maintain System Client Org and User Preferences">การจัดการ ค่าตามกำหนด ของระบบ, บริษัท, หน่วยงาน/สาขา และผู้ใช้</value>
+ </row>
+ <row id="116" trl="Y">
+  <value column="Name" original="Project">โครงการ (บริการ)</value>
+  <value column="Description" original="Maintain Projects">การจัดการโครงการบริการ</value>
+ </row>
+ <row id="117" trl="Y">
+  <value column="Name" original="GL Category">ประเภทของบัญชีแยกประเภท</value>
+  <value column="Description" original="Maintain General Ledger Categories">การจัดการประเภทของบัญชีแยกประเภท</value>
+ </row>
+ <row id="118" trl="Y">
+  <value column="Name" original="GL Journal">บัญชีรายวันทั่วไป</value>
+  <value column="Description" original="Enter and change Manual Journal Entries">ใส่ และ เปลี่ยนแปลง รายการบัญชีรายวันด้วยตัวเอง</value>
+ </row>
+ <row id="120" trl="Y">
+  <value column="Name" original="Activity (ABC)">กิจกรรม (ABC)</value>
+  <value column="Description" original="Maintain Activities for Activity Based Costing">ดูแลกิจกรรมสำหรับการคิดต้นทุนจากกิจกรรม (Activity Based Costing)</value>
+ </row>
+ <row id="121" trl="Y">
+  <value column="Name" original="Document Type">ประเภทเอกสาร</value>
+  <value column="Description" original="Maintain Document Types">การจัดการประเภทเอกสาร</value>
+ </row>
+ <row id="123" trl="Y">
+  <value column="Name" original="Tax Rate">อัตราภาษี</value>
+  <value column="Description" original="Maintain Taxes and their Rates">การจัดการภาษี และอัตราภาษีต่างๆ</value>
+ </row>
+ <row id="124" trl="Y">
+  <value column="Name" original="Tax Category">ประเภทภาษี</value>
+  <value column="Description" original="Maintain Tax Categories">การจัดการประเภทภาษี</value>
+ </row>
+ <row id="125" trl="Y">
+  <value column="Name" original="Warehouse &amp; Locators">คลังสินค้าและตำแหน่งสินค้า</value>
+  <value column="Description" original="Maintain Warehouses and Locators">การจัดการคลังสินค้าและตำแหน่งสินค้า</value>
+ </row>
+ <row id="126" trl="Y">
+  <value column="Name" original="Product">สินค้า</value>
+  <value column="Description" original="Maintain Products">การจัดการสินค้า</value>
+ </row>
+ <row id="127" trl="Y">
+  <value column="Name" original="Payment Term">ระยะเวลาจ่ายเงิน</value>
+  <value column="Description" original="Maintain Payment Terms">การจัดการระยะเวลาจ่ายเงิน</value>
+ </row>
+ <row id="128" trl="Y">
+  <value column="Name" original="Shipper">ผู้จัดส่ง</value>
+  <value column="Description" original="Maintain Shippers">การจัดการผู้จัดส่ง</value>
+ </row>
+ <row id="129" trl="Y">
+  <value column="Name" original="Sales Order">คำสั่งขาย</value>
+  <value column="Description" original="Enter and change sales orders">ใส่และเปลี่ยนคำสั่งขาย</value>
+ </row>
+ <row id="130" trl="Y">
+  <value column="Name" original="Product Category">ประเภทสินค้า</value>
+  <value column="Description" original="Maintain Product Categories">การจัดการประเภทสินค้า</value>
+ </row>
+ <row id="132" trl="Y">
+  <value column="Name" original="Price List">รายการราคา</value>
+  <value column="Description" original="Maintain Product Price Lists">การจัดการรายการราคาสินค้า</value>
+ </row>
+ <row id="133" trl="Y">
+  <value column="Name" original="Invoice Schedule">เงื่อนไขการวางบิล</value>
+  <value column="Description" original="Maintain Invoicing Schedule">การจัดการกำหนดเงื่อนไขการวางบิล</value>
+ </row>
+ <row id="134" trl="Y">
+  <value column="Name" original="Marketing Campaign">แคมเปญทางการตลาด</value>
+  <value column="Description" original="Maintain Marketing Campaigns">การจัดแคมเปญทางการตลาด</value>
+ </row>
+ <row id="135" trl="Y">
+  <value column="Name" original="GL Budget">งบประมาณบัญชีแยกประเภท</value>
+  <value column="Description" original="Maintain General Ledger Budgets">การจัดการงบประมาณบัญชีแยกประเภท</value>
+ </row>
+ <row id="136" trl="Y">
+  <value column="Name" original="Marketing Channel">ช่องทางการตลาด</value>
+  <value column="Description" original="Maintain Marketing  Channels">การจัดการช่องทางการตลาด</value>
+ </row>
+ <row id="137" trl="Y">
+  <value column="Name" original="Sales Region">เขตการขาย</value>
+  <value column="Description" original="Maintain Sales Regions">การจัดการเขตการขายต่างๆ</value>
+ </row>
+ <row id="138" trl="Y">
+  <value column="Name" original="Element">องค์ประกอบ</value>
+  <value column="Description" original="Maintain System Elements">ดูแลองค์ประกอบระบบ</value>
+ </row>
+ <row id="139" trl="Y">
+  <value column="Name" original="Table and Column">ตารางและคอลัมน์</value>
+  <value column="Description" original="Maintain Tables and Columns">การจัดการตารางและคอลัมน์</value>
+ </row>
+ <row id="140" trl="Y">
+  <value column="Name" original="Reference">อ้างอิง</value>
+  <value column="Description" original="Maintain System References">การจัดการรายการอ้างอิงของระบบ</value>
+ </row>
+ <row id="141" trl="Y">
+  <value column="Name" original="Window, Tab &amp; Field">หน้าจอ, แท็บ และ ฟิลด์</value>
+  <value column="Description" original="Maintain Windows, Tabs &amp; Fields">การจัดการ หน้าจอ, แท็บ และ ฟิลด์</value>
+ </row>
+ <row id="142" trl="Y">
+  <value column="Name" original="Validation Rules">กฎเกณฑ์การรับรองความถูกต้อง</value>
+  <value column="Description" original="Maintain dynamic Validation Rules for columns and fields">การจัดการกฎเกณฑ์การรับรองความถูกต้องสำหรับคอลัมน์และฟิลด์</value>
+ </row>
+ <row id="143" trl="Y">
+  <value column="Name" original="Message">ข้อความ</value>
+  <value column="Description" original="Maintain Information and Error Messages">การจัดการข้อมูลและข้อความผิดพลาด</value>
+ </row>
+ <row id="144" trl="Y">
+  <value column="Name" original="Menu">เมนู</value>
+  <value column="Description" original="Maintain Menu">การจัดการเมนู</value>
+ </row>
+ <row id="145" trl="Y">
+  <value column="Name" original="Language">ภาษา</value>
+  <value column="Description" original="Maintain Languages">การจัดการภาษา</value>
+ </row>
+ <row id="147" trl="Y">
+  <value column="Name" original="User">ผู้ใช้</value>
+  <value column="Description" original="Maintain Users of the system">การจัดการผู้ใช้ของระบบ</value>
+ </row>
+ <row id="148" trl="Y">
+  <value column="Name" original="Client">บริษัท</value>
+  <value column="Description" original="Maintain Clients/Tenants">การจัดการ บริษัท/ผู้เช่า</value>
+ </row>
+ <row id="149" trl="Y">
+  <value column="Name" original="Organization">หน่วยงาน/สาขา</value>
+  <value column="Description" original="Maintain Organizations">การจัดการหน่วยงาน/สาขา</value>
+ </row>
+ <row id="150" trl="Y">
+  <value column="Name" original="Role">บทบาท</value>
+  <value column="Description" original="Maintain User Responsibilities">การจัดการความรับผิดชอบของผู้ใช้</value>
+ </row>
+ <row id="151" trl="Y">
+  <value column="Name" original="Document Sequence">ลำดับเอกสาร</value>
+  <value column="Description" original="Maintain System and Document Sequences">การจัดการลำดับระบบและลำดับเอกสาร</value>
+ </row>
+ <row id="152" trl="Y">
+  <value column="Name" original="Workflow">เวิร์คโฟล</value>
+  <value column="Description" original="Maintain Workflow">การจัดการเวิร์คโฟล</value>
+ </row>
+ <row id="153" trl="Y">
+  <value column="Name" original="Application Dictionary">แอพพลิเคชั่นดิกชั่นนารี่</value>
+  <value column="Description" original="Maintain Application Dictionary">การจัดการแอพพลิเคชั่นดิกชั่นนารี่</value>
+ </row>
+ <row id="155" trl="Y">
+  <value column="Name" original="General Rules">การกำหนดค่าทั่วไป</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="156" trl="Y">
+  <value column="Name" original="Client Rules">การกำหนดค่าบริษัท</value>
+  <value column="Description" original="Maintain Client Rules">การจัดการการกำหนดค่าของบริษัท</value>
+ </row>
+ <row id="157" trl="Y">
+  <value column="Name" original="Data">ข้อมูล</value>
+  <value column="Description" original="Maintain Data">การจัดการข้อมูล</value>
+ </row>
+ <row id="158" trl="Y">
+  <value column="Name" original="Performance Measurement">การวัดผลงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="159" trl="Y">
+  <value column="Name" original="Utility">เครื่องมือ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="160" trl="Y">
+  <value column="Name" original="Project Management">การบริหารโครงการ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="161" trl="Y">
+  <value column="Name" original="System Rules">การกำหนดค่าระบบ</value>
+  <value column="Description" original="General System Rules">การกำหนดค่าทั่วไปของระบบ</value>
+ </row>
+ <row id="163" trl="Y">
+  <value column="Name" original="Data Import">การนำเข้าข้อมูล</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="164" trl="Y">
+  <value column="Name" original="Accounting Rules">การกำหนดค่าทางบัญชี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="165" trl="Y">
+  <value column="Name" original="Business Partner Rules">การกำหนดค่าคู่ค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="166" trl="Y">
+  <value column="Name" original="Quote-to-Invoice">ระบบการตลาด</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="167" trl="Y">
+  <value column="Name" original="Material Management Rules">การกำหนดค่าการบริหารสินค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="169" trl="Y">
+  <value column="Name" original="Accounting Facts Details">รายละเอียดบัญชีแยกประเภท</value>
+  <value column="Description" original="Query Accounting Facts">สอบถามข้อเท็จจริงทางบัญชี</value>
+ </row>
+ <row id="170" trl="Y">
+  <value column="Name" original="Tree">Tree</value>
+  <value column="Description" original="Maintain Tree definition">การจัดการนิยามของ Tree</value>
+ </row>
+ <row id="171" trl="Y">
+  <value column="Name" original="Bank">ธนาคาร</value>
+  <value column="Description" original="Maintain Bank">การจัดการธนาคาร</value>
+ </row>
+ <row id="172" trl="Y">
+  <value column="Name" original="Dunning">การเร่งรัดหนี้</value>
+  <value column="Description" original="Maintain Dunning Levels">การจัดการระดับการเร่งรัดหนี้</value>
+ </row>
+ <row id="173" trl="Y">
+  <value column="Name" original="Withholding (1099)">การหัก ณ ที่จ่าย (1099)</value>
+  <value column="Description" original="Maintain Withholding Certificates">การจัดการเอกสารรับรองการหัก ณ ที่จ่าย</value>
+ </row>
+ <row id="174" trl="Y">
+  <value column="Name" original="Charge">ค่าธรรมเนียม</value>
+  <value column="Description" original="Maintain Charges">การจัดการการคิดค่าธรรมเนียม</value>
+ </row>
+ <row id="175" trl="Y">
+  <value column="Name" original="Organization Rules">กำหนดค่าหน่วยงาน/สาขา</value>
+  <value column="Description" original="">การจัดการการกำหนดค่าของหน่วยงาน/สาขา</value>
+ </row>
+ <row id="176" trl="Y">
+  <value column="Name" original="Report &amp; Process">รายงานและกระบวนการ</value>
+  <value column="Description" original="Maintain Reports &amp; Processes">การจัดการรายงานและกระบวนการ</value>
+ </row>
+ <row id="178" trl="Y">
+  <value column="Name" original="Invoice (Customer)">การแจ้งหนี้ (ลูกค้า)</value>
+  <value column="Description" original="Customer Invoice Entry">รายการใบแจ้งหนี้ / ใบกำกับภาษี ลูกค้า</value>
+ </row>
+ <row id="179" trl="Y">
+  <value column="Name" original="Physical Inventory">การตรวจนับสินค้า</value>
+  <value column="Description" original="Enter Physical Inventory">ใส่ข้อมูลการตรวจนับสินค้า</value>
+ </row>
+ <row id="180" trl="Y">
+  <value column="Name" original="Shipment (Customer)">การส่งสินค้า (ลูกค้า)</value>
+  <value column="Description" original="Customer Inventory Shipments Customer Returns">การจัดส่งสินค้าคงคลังให้ลูกค้า, สินค้าคืนจากลูกค้า</value>
+ </row>
+ <row id="181" trl="Y">
+  <value column="Name" original="Inventory Move">เคลื่อนย้ายสินค้าคงคลัง</value>
+  <value column="Description" original="Inventory Move">เคลื่อนย้ายสินค้าคงคลัง</value>
+ </row>
+ <row id="183" trl="Y">
+  <value column="Name" original="Material Management">การบริหารสินค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="185" trl="Y">
+  <value column="Name" original="Import Business Partner">นำเข้าบริษัทคู่ค้า</value>
+  <value column="Description" original="Import Business Partner">นำเข้าบริษัทคู่ค้า</value>
+ </row>
+ <row id="186" trl="Y">
+  <value column="Name" original="Revenue Recognition">การรับรู้รายได้</value>
+  <value column="Description" original="Revenue Recognition Rules">กฏเกณฑ์การรับรู้รายได้</value>
+ </row>
+ <row id="187" trl="Y">
+  <value column="Name" original="Perpetual Inventory">Perpetual Inventory</value>
+  <value column="Description" original="Maintain Perpetual Inventory Rules">ระบบจัดการสินค้าคงเหลือแบบต่อเนื่อง</value>
+ </row>
+ <row id="188" trl="Y">
+  <value column="Name" original="Vendor Details">รายละเอียดผู้จำหน่าย</value>
+  <value column="Description" original="Maintain Vendor Details">การจัดการรายละเอียดผู้จำหน่าย</value>
+ </row>
+ <row id="190" trl="Y">
+  <value column="Name" original="Greeting">คำทักทาย</value>
+  <value column="Description" original="Maintain Greetings">การจัดการคำทักทาย</value>
+ </row>
+ <row id="192" trl="Y">
+  <value column="Name" original="Generate Invoices">สร้างใบแจ้งหนี้</value>
+  <value column="Description" original="Generate and print Invoices from open Orders">สร้างและพิมพ์ใบแจ้งหนี้จากใบสั่งสินค้าค้าง</value>
+ </row>
+ <row id="193" trl="Y">
+  <value column="Name" original="Generate Shipments">สร้างการส่งสินค้า</value>
+  <value column="Description" original="Generate and print Shipments from open Orders">สร้างและพิมพ์การส่งสินค้าจากใบสั่งสินค้าที่ค้างอยู่</value>
+ </row>
+ <row id="194" trl="Y">
+  <value column="Name" original="Order Transactions">ธุรกรรมคำสั่งขาย</value>
+  <value column="Description" original="Order Transactions">รายงานธุรกรรมรายการสั่งขาย</value>
+ </row>
+ <row id="195" trl="Y">
+  <value column="Name" original="Open Orders">ใบสั่งสินค้าค้าง</value>
+  <value column="Description" original="Open Order Report">รายงานใบสั่งสินค้าค้าง</value>
+ </row>
+ <row id="196" trl="Y">
+  <value column="Name" original="Replenish Report">รายงานการเติมสินค้า</value>
+  <value column="Description" original="Inventory Replenish Report">รายงานการเติมสินค้าคงคลัง</value>
+ </row>
+ <row id="197" trl="Y">
+  <value column="Name" original="Product Transaction Summary">สรุปธุรกรรมสินค้า</value>
+  <value column="Description" original="Product Transaction Summary">สรุปธุรกรรมสินค้า</value>
+ </row>
+ <row id="200" trl="Y">
+  <value column="Name" original="Request Processor">ต้วประมวลผลคำร้องขอ</value>
+  <value column="Description" original="Define Request Processors">ให้นิยามตัวู้ประมวลผลคำร้องขอ</value>
+ </row>
+ <row id="201" trl="Y">
+  <value column="Name" original="Report View">มุมมองรายงาน</value>
+  <value column="Description" original="Maintain Report Views">การจัดการมุมมองรายงาน</value>
+ </row>
+ <row id="202" trl="Y">
+  <value column="Name" original="Invoice Transactions (Acct)">รายการธุรกรรมในใบแจ้งหนี้ (บัญชี)</value>
+  <value column="Description" original="Invoice Transactions by Accounting Date">รายการธุรกรรมในใบแจ้งหนี้ ตามวันที่บัญชี</value>
+ </row>
+ <row id="203" trl="Y">
+  <value column="Name" original="Requisition-to-Invoice">การจัดซื้อ</value>
+  <value column="Description" original="">(Purchasing System)</value>
+ </row>
+ <row id="204" trl="Y">
+  <value column="Name" original="Material Receipt">รับเข้า/คืนสินค้า (ผู้จำหน่าย)</value>
+  <value column="Description" original="Vendor Shipments (Receipts)">การส่งสินค้าจากผู้จำหน่าย (การรับสินค้า)</value>
+ </row>
+ <row id="205" trl="Y">
+  <value column="Name" original="Purchase Order">คำสั่งซื้อ</value>
+  <value column="Description" original="Manage Purchase Orders">จัดการคำสั่งซื้อ</value>
+ </row>
+ <row id="206" trl="Y">
+  <value column="Name" original="Invoice (Vendor)">การแจ้งหนี้ (ผู้จำหน่าย)</value>
+  <value column="Description" original="Vendor Invoice Entry">รายการใบแจ้งหนี้ผู้จำหน่าย</value>
+ </row>
+ <row id="210" trl="Y">
+  <value column="Name" original="Daily Invoice">แจ้งหนี้รายวัน</value>
+  <value column="Description" original="Imvoice Report per Day">รายงานแจ้งหนี้รายวัน</value>
+ </row>
+ <row id="211" trl="Y">
+  <value column="Name" original="Monthly Invoice">แจ้งหนี้รายเดือน</value>
+  <value column="Description" original="Imvoice Report per Month">รายงานแจ้งหนี้รายเดือน</value>
+ </row>
+ <row id="212" trl="Y">
+  <value column="Name" original="Monthly Invoice Prod Cat">สินค้าในใบแจ้งหนี้รายเดือน</value>
+  <value column="Description" original="Imvoice Report by Product Category per Month">รายงานใบแจ้งหนี้ตามสินค้ารายเดือน</value>
+ </row>
+ <row id="213" trl="Y">
+  <value column="Name" original="Weekly Invoice Prod Cat">สินค้าตามใบแจ้งหนี้รายสัปดาห์</value>
+  <value column="Description" original="Imvoice Report by Product Category per Week">รายงานใบแจ้งหนี้ตามสินค้ารายสัปดาห์</value>
+ </row>
+ <row id="214" trl="Y">
+  <value column="Name" original="Monthly Invoice Vendor">ผู้จำหน่ายตามใบแจ้งหนี้รายเดือน</value>
+  <value column="Description" original="Imvoice Report by Product Vendor per Month">รายงานใบแจ้งหนี้ตามผู้จำหน่ายสินค้ารายเดือน</value>
+ </row>
+ <row id="215" trl="Y">
+  <value column="Name" original="Weekly Invoice">แจ้งหนี้รายสัปดาห์</value>
+  <value column="Description" original="Imvoice Report per Week">รายงานใบแจ้งหนี้รายสัปดาห์</value>
+ </row>
+ <row id="216" trl="Y">
+  <value column="Name" original="Form">ฟอร์ม</value>
+  <value column="Description" original="Special Forms">ฟอร์มพิเศษ</value>
+ </row>
+ <row id="217" trl="Y">
+  <value column="Name" original="Generate Invoices (manual)">สร้างใบแจ้งหนี้ (ด้วยมือ)</value>
+  <value column="Description" original="Select and generate invoices">เลือก และ สร้างใบแจ้งหนี้</value>
+ </row>
+ <row id="218" trl="Y">
+  <value column="Name" original="System Admin">การบริหารระบบ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="219" trl="Y">
+  <value column="Name" original="Project Setup and Use">ตั้งระบบโครงการและใช้โครงการ</value>
+  <value column="Description" original="Setup of projects and project reporting">ตั้งโครงการและรายงานโครงการ</value>
+ </row>
+ <row id="220" trl="Y">
+  <value column="Name" original="Java Version">เวอร์ชั่นของ Java</value>
+  <value column="Description" original="Displays the version of the default Java VM">แสดงผลเวอร์ชั่นของ Java VM</value>
+ </row>
+ <row id="221" trl="Y">
+  <value column="Name" original="Error Message">ข้อความผิดพลาด</value>
+  <value column="Description" original="Display Error Messages">แสดงผลข้อความผิดพลาด</value>
+ </row>
+ <row id="222" trl="Y">
+  <value column="Name" original="Import Loader Format">รูปแบบตัวอ่านนำเข้า</value>
+  <value column="Description" original="Maintain Import Loader Formats">การจัดการรูปแบบตัวอ่านนำเข้า</value>
+ </row>
+ <row id="223" trl="Y">
+  <value column="Name" original="Import File Loader">ตัวอ่านไฟล์นำเข้า</value>
+  <value column="Description" original="Load flat Files into import tables">อ่าน flat Files เข้าไปใน ตารางนำเข้า</value>
+ </row>
+ <row id="224" trl="Y">
+  <value column="Name" original="Language Setup">ตั้งระบบภาษา</value>
+  <value column="Description" original="Setup a new Language of the system and translate elements">ตั้งภาษาใหม่ของระบบและแปลองค์ประกอบ</value>
+ </row>
+ <row id="225" trl="Y">
+  <value column="Name" original="Initial Client Setup">ตั้งระบบเริ่มต้นบริษัท</value>
+  <value column="Description" original="Initial new Client/Tenant Setup">ตั้งระบบเริ่มต้นบริษัท</value>
+ </row>
+ <row id="227" trl="Y">
+  <value column="Name" original="Vendor Selection">การเลือกผู้จำหน่าย</value>
+  <value column="Description" original="Products with more than one vendor">สินค้าที่มีผู้จำหน่ายมากกว่าหนึ่งราย</value>
+ </row>
+ <row id="228" trl="Y">
+  <value column="Name" original="Production">การผลิต</value>
+  <value column="Description" original="Production based on Bill of Materials">การผลิตสินค้าตามบัญชีวัสดุ (Bill of Materials)</value>
+ </row>
+ <row id="229" trl="Y">
+  <value column="Name" original="Material Transactions">รายการความเคลื่อนไหวสินค้า</value>
+  <value column="Description" original="Material Transactions">ความเคลื่อนไหวสินค้า</value>
+ </row>
+ <row id="230" trl="Y">
+  <value column="Name" original="Quarterly Invoice Customer by Product">ใบแจ้งหนี้ลูกค้ารายไตรมาสจำแนกตามสินค้า</value>
+  <value column="Description" original="Invoice Report by Customer and Product Category per Quarter">รายงานใบแจ้งหนี้จำแนกตามลูกค้าและสินค้าต่อไตรมาส</value>
+ </row>
+ <row id="231" trl="Y">
+  <value column="Name" original="Quarterly Invoice Customer by Vendor">ใบแจ้งหนี้ลูกค้ารายไตรมาสจำแนกตามผู้จำหน่าย</value>
+  <value column="Description" original="Invoice Report by Customer and Product Vendor per Quarter">รายงานใบแจ้งหนี้จำแนกตามลูกค้าและผู้จำหน่ายสินค้าต่อไตรมาส</value>
+ </row>
+ <row id="232" trl="Y">
+  <value column="Name" original="Business Partner Group">กลุ่มบริษัทคู่ค้า</value>
+  <value column="Description" original="Maintain Business Partner Groups">การจัดการกลุ่มบริษัทคู่ค้า</value>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Notice">ข้อสังเกตุ</value>
+  <value column="Description" original="View System Notices">ดูข้อสังเกตุของระบบ</value>
+ </row>
+ <row id="234" trl="Y">
+  <value column="Name" original="Bank Statement (Receipt)">รายการเดินบัญชีธนาคาร (รับ)</value>
+  <value column="Description" original="Process Bank Statements">ประมวลผลใบแจ้งรายการเดินบัญชี</value>
+ </row>
+ <row id="235" trl="Y">
+  <value column="Name" original="Payment">การจ่ายเงิน</value>
+  <value column="Description" original="Process Payments and Receipts">ประมวลผลการจ่ายเงิน</value>
+ </row>
+ <row id="236" trl="Y">
+  <value column="Name" original="Open Items">ระบบการเงิน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="237" trl="Y">
+  <value column="Name" original="Request">คำร้องขอ</value>
+  <value column="Description" original="Work on your requests">ทำงานเกี่ยวกับคำร้องขอของคุณ</value>
+ </row>
+ <row id="238" trl="Y">
+  <value column="Name" original="Mail Template">รูปแบบ Mail</value>
+  <value column="Description" original="Maintain Mail Template">การจัดการรูปแบบ Mail</value>
+ </row>
+ <row id="239" trl="Y">
+  <value column="Name" original="Custom Attribute">คุณสมบัติเฉพาะ</value>
+  <value column="Description" original="Maintain custom entity attributes">การจัดการคุณสมบัติเฉพาะของ entity</value>
+ </row>
+ <row id="240" trl="Y">
+  <value column="Name" original="Cashbook">กำหนดบัญชีเงินสดย่อย</value>
+  <value column="Description" original="Maintain Cashbook">การจัดการบัญชีเงินสด</value>
+ </row>
+ <row id="241" trl="Y">
+  <value column="Name" original="Cash Journal">บันทึกรายการเงินสดย่อย</value>
+  <value column="Description" original="Cash transactions">บันทึกรายการเงินสดย่อย</value>
+ </row>
+ <row id="243" trl="Y">
+  <value column="Name" original="Open Items">รายการค้าง</value>
+  <value column="Description" original="Open Item (Invoice) List">รายการค้าง</value>
+ </row>
+ <row id="244" trl="Y">
+  <value column="Name" original="UnReconciled Payments">การจ่ายเงินที่ยังไม่ได้กระทบยอด</value>
+  <value column="Description" original="Payments not reconciled with Bank Statement">การจ่ายเงินที่ยังไม่ได้กระทบยอดกับใบแจ้งยอดธนาคาร</value>
+ </row>
+ <row id="245" trl="Y">
+  <value column="Name" original="Payment Allocation">การจัดสรรการจ่ายเงิน</value>
+  <value column="Description" original="Allocate invoices and payments">จัดสรรใบแจ้งหนี้ และการจ่ายเงิน</value>
+ </row>
+ <row id="246" trl="Y">
+  <value column="Name" original="Allocation">จัดสรรการจ่ายเงิน</value>
+  <value column="Description" original="Payment - Invoice - Allocation">การจ่ายเงิน - แจ้งหนี้ - การจัดสรร</value>
+ </row>
+ <row id="249" trl="Y">
+  <value column="Name" original="Field Group">กลุ่มฟิลด์</value>
+  <value column="Description" original="Define Field Group">กำหนดกลุ่มฟิลด์</value>
+ </row>
+ <row id="251" trl="Y">
+  <value column="Name" original="View Allocation (Receipt)">ดูการลงบัญชี (ด้านรับ)</value>
+  <value column="Description" original="View and Reverse Allocations ">ดูและย้อนคืนการจัดสรร</value>
+ </row>
+ <row id="252" trl="Y">
+  <value column="Name" original="Invoice Transactions (Doc)">รายการธุรกรรมในใบแจ้งหนี้ (เอกสาร)</value>
+  <value column="Description" original="Invoice Transactions by Invoice Date">รายการธุรกรรมในใบแจ้งหนี้ ตามวันที่แจ้งหนี้</value>
+ </row>
+ <row id="253" trl="Y">
+  <value column="Name" original="Invoice Detail &amp; Margin">รายละเอียดใบแจ้งหนี้</value>
+  <value column="Description" original="Invoice (Line) Detail and Margin Report">รายงานรายละเอียด (รายการ) ใบแจ้งหนี้</value>
+ </row>
+ <row id="254" trl="Y">
+  <value column="Name" original="Generate Charges">สร้างค่าธรรมเนียม</value>
+  <value column="Description" original="Generate Charges from natural accounts">สร้างค่าธรรมเนียมจากบัญชีธรรมชาติ</value>
+ </row>
+ <row id="255" trl="Y">
+  <value column="Name" original="Payment Selection">การเลือกจ่ายเงิน</value>
+  <value column="Description" original="Select Invoices for Payment">เลือกใบแจ้งหนี้สำหรับการจ่ายเงิน</value>
+ </row>
+ <row id="256" trl="Y">
+  <value column="Name" original="Product Transaction Value">มูลค่าธุรกรรมสินค้า</value>
+  <value column="Description" original="Product Transaction Value">มูลค่าธุรกรรมสินค้า</value>
+ </row>
+ <row id="257" trl="Y">
+  <value column="Name" original="Commission">ค่าคอมมิชชั่น</value>
+  <value column="Description" original="Maintain Commissions and Royalties">การจัดการค่าคอมมิชชั่นและค่าภักดี</value>
+ </row>
+ <row id="258" trl="Y">
+  <value column="Name" original="Project Reporting">การรายงานโครงการ</value>
+  <value column="Description" original="Maintain Project Reporting Cycles">การจัดการวัฏจักรการรายงานโครงการ</value>
+ </row>
+ <row id="260" trl="Y">
+  <value column="Name" original="Project Status Summary">สรุปสถานะโครงการ</value>
+  <value column="Description" original="Project Status of Project Cycle">สถานะของงานในโครงการ</value>
+ </row>
+ <row id="261" trl="Y">
+  <value column="Name" original="Initial Client Setup Review">ทบทวนการตั้งค่าเริ่มต้นบริษัท</value>
+  <value column="Description" original="Review of system level setup of a new  Client">ทบทวนการตั้งค่าเริ่มต้นของบริษัทใหม่ในระบบ</value>
+ </row>
+ <row id="263" trl="Y">
+  <value column="Name" original="Partner Relations">การบริหารธุรกิจสัมพันธ์</value>
+  <value column="Description" original="Customer Relations and Partner Management">การบริหารลูกค้าสัมพันธ์ และการบริหารธุรกิจสัมพันธ์</value>
+ </row>
+ <row id="264" trl="Y">
+  <value column="Name" original="Commission Run">คำนวนค่าคอมมิชชั่น</value>
+  <value column="Description" original="Check and modify Commissions">ตรวจสอบ และ แก้ไขค่าคอมมิชชั่น</value>
+ </row>
+ <row id="265" trl="Y">
+  <value column="Name" original="Accounting Setup">ตั้งระบบบัญชี</value>
+  <value column="Description" original="Review and change Accounting Setup">ทบทวนและเปลี่ยนแปลงการตั้งระบบบัญชี</value>
+ </row>
+ <row id="266" trl="Y">
+  <value column="Name" original="Business Partner Setup">ตั้งระบบบริษัทคู่ค้า</value>
+  <value column="Description" original="Setup Business Partner Rules">ตั้งกฏเกณฑ์ของระบบบริษัทคู่ค้า</value>
+ </row>
+ <row id="267" trl="Y">
+  <value column="Name" original="Price List Setup">ตั้งระบบรายการราคา</value>
+  <value column="Description" original="Define your Price Lists and Discounts">ให้นิยามรายการราคาและส่วนลดของคุณ</value>
+ </row>
+ <row id="268" trl="Y">
+  <value column="Name" original="Product Setup">ตั้งระบบสินค้า</value>
+  <value column="Description" original="Set up Products">กำหนดสินต้า</value>
+ </row>
+ <row id="269" trl="Y">
+  <value column="Name" original="Sales Setup">ต้งระบบขาย</value>
+  <value column="Description" original="Setup Sales">ต้งระบบขาย</value>
+ </row>
+ <row id="270" trl="Y">
+  <value column="Name" original="Tax Setup">ตั้งระบบภาษี</value>
+  <value column="Description" original="Setup tax calculation">ตั้งระบบการคำนวนภาษี</value>
+ </row>
+ <row id="271" trl="Y">
+  <value column="Name" original="Service">การบริการ</value>
+  <value column="Description" original="Service Management">การบริหารการบริการ</value>
+ </row>
+ <row id="272" trl="Y">
+  <value column="Name" original="Sales and Marketing">การขายและการตลาด</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="275" trl="Y">
+  <value column="Name" original="Performance Goal">เป้าหมายผลงาน</value>
+  <value column="Description" original="Define Performance Goals">ให้นิยามเป้าหมายผลงาน</value>
+ </row>
+ <row id="276" trl="Y">
+  <value column="Name" original="Performance Measure Calculation">การคำนวนวัดผลงาน</value>
+  <value column="Description" original="Define how you calculate your performance measures">กำหนดวิธีที่คุณคำนวนเพื่อวัดผลงานของคุณ</value>
+ </row>
+ <row id="277" trl="Y">
+  <value column="Name" original="Performance Measurement Setup">ตั้งระบบวัดผลงาน</value>
+  <value column="Description" original="Setup your Performance Measurement">ตั้งระบบวัดผลงานของคุณ</value>
+ </row>
+ <row id="278" trl="Y">
+  <value column="Name" original="Performance Analysis">บัญชี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="279" trl="Y">
+  <value column="Name" original="Performance Measure">การวัดผลงาน</value>
+  <value column="Description" original="Define your Performance Measures">กำหนดการวัดผลงานของคุณ</value>
+ </row>
+ <row id="280" trl="Y">
+  <value column="Name" original="Financial Reporting">การรายงานทางการเงิน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="281" trl="Y">
+  <value column="Name" original="Financial Report">รายงานทางการเงิน</value>
+  <value column="Description" original="Maintain Financial Reports">การจัดการรายงานทางการเงิน</value>
+ </row>
+ <row id="282" trl="Y">
+  <value column="Name" original="Report Column Set">ชุดคอลัมน์รายงาน</value>
+  <value column="Description" original="Maintain Financial Report Column Sets">การจัดการชุดคอลัมน์รายงานทางการเงิน</value>
+ </row>
+ <row id="283" trl="Y">
+  <value column="Name" original="Report Line Set">ชุดบรรทัดรายงาน</value>
+  <value column="Description" original="Maintain Financial Report Line Sets">การจัดการชุดบรรทัดรายงานทางการเงิน</value>
+ </row>
+ <row id="284" trl="Y">
+  <value column="Name" original="Service Level">ระดับบริการ</value>
+  <value column="Description" original="Maintain Service Levels">การจัดการระดับบริการ</value>
+ </row>
+ <row id="286" trl="Y">
+  <value column="Name" original="Payment Selection (manual)">การเลือกจ่ายเงิน (ทำเอง)</value>
+  <value column="Description" original="Manual Payment Selection">ทำการเลือกจ่ายเงินเอง</value>
+ </row>
+ <row id="287" trl="Y">
+  <value column="Name" original="Payment Print/Export">พิมพ์/ส่งออก การจ่ายเงิน</value>
+  <value column="Description" original="Print or export your payments">พิมพ์ หรือ ส่งออก การจ่ายเงินของคุณ</value>
+ </row>
+ <row id="288" trl="Y">
+  <value column="Name" original="Cash Journal Detail">รายละเอียดบัญชีรายวันเงินสด</value>
+  <value column="Description" original="Detail Cash Journal Information">ข้อมูลรายละเอียดบัญชีรายวันเงินสด</value>
+ </row>
+ <row id="289" trl="Y">
+  <value column="Name" original="Database export">ส่งออกฐานข้อมูล</value>
+  <value column="Description" original="Export (save) the database">ส่งออก (บันทึก) ฐานข้อมูล</value>
+ </row>
+ <row id="290" trl="Y">
+  <value column="Name" original="Find (indirect use)">ค้นหา (ใช้โดยอ้อม)</value>
+  <value column="Description" original="Find Dialog (indirect use)">กล่องโต้ตอบสำหรับการค้นหา (ใช้โดยอ้อม)</value>
+ </row>
+ <row id="292" trl="Y">
+  <value column="Name" original="Material Transactions (indirect use)">รายการความเคลื่อนไหวสินค้า (ใช้โดยอ้อม)</value>
+  <value column="Description" original="Material Transactions (indirect use)">รายการความเคลื่อนไหวสินค้า (ใช้โดยอ้อม)</value>
+ </row>
+ <row id="293" trl="Y">
+  <value column="Name" original="Print Form">ฟอร์มพิมพ์</value>
+  <value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">การจัดการฟอร์มพิมพ์ (ใบแจ้งหนี้, เช็ค, ..)</value>
+ </row>
+ <row id="294" trl="Y">
+  <value column="Name" original="System Color">สีของระบบ</value>
+  <value column="Description" original="Maintain System Colors">การจัดการสีของระบบ</value>
+ </row>
+ <row id="295" trl="Y">
+  <value column="Name" original="Desktop">เดสก์ทอป</value>
+  <value column="Description" original="Maintain Desktop">การจัดการเดสก์ทอป</value>
+ </row>
+ <row id="296" trl="Y">
+  <value column="Name" original="System Image">ภาพของระบบ</value>
+  <value column="Description" original="Maintain Images and Icons">การจัดการภาพต่างๆและไอคอน</value>
+ </row>
+ <row id="300" trl="Y">
+  <value column="Name" original="Workbench">โต๊ะงาน</value>
+  <value column="Description" original="Maintain Workbench">การจัดการโต๊ะงาน</value>
+ </row>
+ <row id="301" trl="Y">
+  <value column="Name" original="Sales">การขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Database transfer">ถ่ายโอนฐานข้อมูล</value>
+  <value column="Description" original="Transfer the database">ถ่ายโอนฐานข้อมูล</value>
+ </row>
+ <row id="303" trl="Y">
+  <value column="Name" original="Synchronize Terminology">ปรับปรุงระบบคำศัพท์</value>
+  <value column="Description" original="Synchronize the terminology within the system.">ปรับปรุงระบบคำศัพท์ภายในระบบ</value>
+ </row>
+ <row id="304" trl="Y">
+  <value column="Name" original="Receivables Write-Off">ตัดบัญชีหนี้สูญ</value>
+  <value column="Description" original="Write off open receivables">ตัดบัญชีลูกหนี้ที่ยังค้างจ่าย</value>
+ </row>
+ <row id="306" trl="Y">
+  <value column="Name" original="Resubmit Posting">ส่งข้อมูลลงบัญชีซ้ำ</value>
+  <value column="Description" original="Resubmit posting of documents with posting errors or locked documents">ส่งข้อมูลลงบัญชีซ้ำเฉพาะเอกสารที่ลงบัญชีผิดพลาด</value>
+ </row>
+ <row id="307" trl="Y">
+  <value column="Name" original="Reset Accounting">ยกเลิกระบบบัญชี</value>
+  <value column="Description" original="Reset Accounting Entries ** Stop Accounting Server before starting **">ยกเลิกรายการทางบัญชีต่างๆ ** หยุดเซิฟเวอร์บัญชีก่อนเริ่มต้น **</value>
+ </row>
+ <row id="308" trl="Y">
+  <value column="Name" original="Request (all)">คำร้องขอ (ทั้งหมด)</value>
+  <value column="Description" original="View and work on all requests">ดูและทำงานเกี่ยวกับคำร้องขอทั้งหมด</value>
+ </row>
+ <row id="309" trl="Y">
+  <value column="Name" original="Request Setup">ตั้งระบบคำร้องขอ</value>
+  <value column="Description" original="Set up the client to process requests">ตั้งระบบลูกข่ายที่จะประมวลผลคำร้องขอ</value>
+ </row>
+ <row id="310" trl="Y">
+  <value column="Name" original="Discount Schema">โครงสร้างส่วนลด</value>
+  <value column="Description" original="Maintain Trade Discount Schema">การจัดการโครงสร้างส่วนลดการค้า</value>
+ </row>
+ <row id="311" trl="Y">
+  <value column="Name" original="Inventory Valuation Report">รายงานมูลค่าสินค่าคงคลัง</value>
+  <value column="Description" original="Inventory Valuation Report">รายงานมูลค่าสินค่าคงคลัง</value>
+ </row>
+ <row id="312" trl="Y">
+  <value column="Name" original="Matching PO-Receipt-Invoice">จับคู่ ใบสั่งซื้อ-ใบรับสินค้า-ใบแจ้งหนี้</value>
+  <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">จับคู่ ใบสั่งซื้อ-ใบรับสินค้า-ใบแจ้งหนี้ของผู้จำหน่าย</value>
+ </row>
+ <row id="313" trl="Y">
+  <value column="Name" original="Standard Cost Update">ปรับปรุงต้นทุนสินค้า</value>
+  <value column="Description" original="Set standard and future cost price">ตั้งราคาต้นทุนอนาคตและราคาต้นทุนมาตรฐาน</value>
+ </row>
+ <row id="314" trl="Y">
+  <value column="Name" original="Product Costing Report (old)">รายงานการคิดต้นทุนสินค้า</value>
+  <value column="Description" original="Product Cost Report">รายงานต้นทุนสินค้า</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="Matched Invoices">ใบแจ้งหนี้ที่จับคู่แล้ว</value>
+  <value column="Description" original="View Matched Invoices">ดูใบแจ้งหนี้ที่จับคู่แล้ว</value>
+ </row>
+ <row id="316" trl="Y">
+  <value column="Name" original="Matched Purchase Orders">ใบสั่งซื้อที่จับคู่แล้ว</value>
+  <value column="Description" original="View Matched Purchase Orders">ดูใบสั่งซื้อที่จับคู่แล้ว</value>
+ </row>
+ <row id="317" trl="Y">
+  <value column="Name" original="Expense Type">ประเภทค่าใช้จ่าย</value>
+  <value column="Description" original="Maintain Expense Report Types">การจัดการแบบของรายงานค่าใช้จ่าย</value>
+ </row>
+ <row id="318" trl="Y">
+  <value column="Name" original="Expense Report">รายงานค่าใช้จ่าย</value>
+  <value column="Description" original="Time and Expense Report">รายงานเวลาและค่าใช้จ่าย</value>
+ </row>
+ <row id="319" trl="Y">
+  <value column="Name" original="Resource">ทรัพยากร</value>
+  <value column="Description" original="Maintain Resources">การจัดการทรัพยากร</value>
+ </row>
+ <row id="320" trl="Y">
+  <value column="Name" original="Resource Type">ประเภททรัพยากร (Resource Type)</value>
+  <value column="Description" original="Maintain Resource Types">การจัดการประเภททรัพยากร</value>
+ </row>
+ <row id="321" trl="Y">
+  <value column="Name" original="Recompile DB Objects">แปลวัตถุฐานข้อมูลใหม่</value>
+  <value column="Description" original="Recompile Database Objects">แปลวัตถุฐานข้อมูลใหม่</value>
+ </row>
+ <row id="322" trl="Y">
+  <value column="Name" original="Print Format">รูปแบบพิมพ์</value>
+  <value column="Description" original="Maintain Print Format">การจัดการรูปแบบพิมพ์</value>
+ </row>
+ <row id="323" trl="Y">
+  <value column="Name" original="Print Font">ฟอนท์พิมพ์</value>
+  <value column="Description" original="Maintain Print Font">การจัดการฟอนท์พิมพ์</value>
+ </row>
+ <row id="324" trl="Y">
+  <value column="Name" original="Print Color">สีพิมพ์</value>
+  <value column="Description" original="Maintain Print Color">การจัดการสีพิมพ์</value>
+ </row>
+ <row id="325" trl="Y">
+  <value column="Name" original="Print Paper">กระดาษพิมพ์</value>
+  <value column="Description" original="Maintain Print Paper">การจัดการกระดาษพิมพ์</value>
+ </row>
+ <row id="326" trl="Y">
+  <value column="Name" original="Printing">การพิมพ์</value>
+  <value column="Description" original="Print Definition">นิยามการพิมพ์</value>
+ </row>
+ <row id="327" trl="Y">
+  <value column="Name" original="Expenses (to be invoiced)">ค่าใช้จ่าย (ที่ต้องแจ้งหนี้)</value>
+  <value column="Description" original="View expenses and charges not invoiced to customers">ดูค่าใช้จ่ายและการคิดเงินที่ยังไม้ได้แจ้งหนี้ไปยังลูกค้า</value>
+ </row>
+ <row id="328" trl="Y">
+  <value column="Name" original="Create Sales Orders from Expense">สร้างใบสั่งขายจากค่าใช้จ่าย</value>
+  <value column="Description" original="Create Sales Orders for Customers from Expense Reports">สร้างใบสั่งขายสำหรับลูกค้าจากรายงานค่าใช้จ่าย</value>
+ </row>
+ <row id="329" trl="Y">
+  <value column="Name" original="Create AP Expense Invoices">สร้างใบแจ้งหนี้ค่าใช้จ่าย AP</value>
+  <value column="Description" original="Create AP Invoices from Expenses to be paid to employees">สร้างใบแจ้งหนี้ AP จาก ค่าใช้จ่ายที่จะจ่ายให้พนักงาน</value>
+ </row>
+ <row id="331" trl="Y">
+  <value column="Name" original="Print Table Format">รูปแบบการพิมพ์ตาราง</value>
+  <value column="Description" original="Define Report Table Format">กำหนดรูปแบบตารางรายงาน</value>
+ </row>
+ <row id="332" trl="Y">
+  <value column="Name" original="Request Type">ประเภทคำร้องขอ</value>
+  <value column="Description" original="Maintain Request Types">การจัดการประเภทคำร้องขอ</value>
+ </row>
+ <row id="333" trl="Y">
+  <value column="Name" original="Interest Area">เรื่องที่สนใจ</value>
+  <value column="Description" original="Interest Area or Topic">เรื่องที่สนใจหรือหัวข้อ</value>
+ </row>
+ <row id="334" trl="Y">
+  <value column="Name" original="System">ระบบ</value>
+  <value column="Description" original="System Definition">นิยามของระบบ</value>
+ </row>
+ <row id="335" trl="Y">
+  <value column="Name" original="Generate PO from Sales Order">สร้างใบสั่งซื้อจากคำสั่งขาย</value>
+  <value column="Description" original="Create Purchase Order from Sales Orders">สร้างใบสั่งซื้อจากคำสั่งขาย</value>
+ </row>
+ <row id="336" trl="Y">
+  <value column="Name" original="Translation Import/Export">นำเข้า/ส่งออก การแปล</value>
+  <value column="Description" original="Import or Export Language Translation">นำเข้า หรือ ส่งออก การแปลภาษา</value>
+ </row>
+ <row id="337" trl="Y">
+  <value column="Name" original="Reopen Request">เปิดคำร้องขอ(ซ้ำ)</value>
+  <value column="Description" original="Reopen closed requests">เปิดคำร้องขอที่ปิดไปแล้วอีกครั้ง</value>
+ </row>
+ <row id="338" trl="Y">
+  <value column="Name" original="Import Report Line Set">นำเข้าชุดบรรทัดรายงาน</value>
+  <value column="Description" original="Import Report Line Sets">นำเข้าชุดบรรทัดรายงาน</value>
+ </row>
+ <row id="339" trl="Y">
+  <value column="Name" original="Import Account">นำเข้าบัญชี</value>
+  <value column="Description" original="Import Natural Account Values">นำเข้าค่าต่างๆของบัญชีธรรมชาติ</value>
+ </row>
+ <row id="340" trl="Y">
+  <value column="Name" original="Import Product">นำเข้าสินค้า</value>
+  <value column="Description" original="Import Products">นำเข้าสินค้า</value>
+ </row>
+ <row id="341" trl="Y">
+  <value column="Name" original="System Translation Check">ตรวจการแปลระบบ</value>
+  <value column="Description" original="Check System Language Translations">ตรวจการแปลภาษาของระบบ</value>
+ </row>
+ <row id="342" trl="Y">
+  <value column="Name" original="Asset">สินทรัพย์</value>
+  <value column="Description" original="Asset used internally or by customers">สินทรัพย์ซึ่งถูกใช้ภายใน หรือถูกใช้โดยลูกค้า</value>
+ </row>
+ <row id="343" trl="Y">
+  <value column="Name" original="Asset Group">กลุ่มสินทรัพย์</value>
+  <value column="Description" original="Group of Assets">กลุ่มของสินทรัพย์</value>
+ </row>
+ <row id="344" trl="Y">
+  <value column="Name" original="Training">การฝึก</value>
+  <value column="Description" original="Repeated Training">การฝึกอบรมที่มีเป็นประจำ</value>
+ </row>
+ <row id="345" trl="Y">
+  <value column="Name" original="Assets">สินทรัพย์</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="346" trl="Y">
+  <value column="Name" original="Generate Shipments (manual)">สร้างการส่งสินค้า (ด้วยมือ)</value>
+  <value column="Description" original="Select and generate shipments">เลือก และ สร้างการส่งสินค้า</value>
+ </row>
+ <row id="347" trl="Y">
+  <value column="Name" original="Print Invoices">พิมพ์ใบแจ้งหนี้</value>
+  <value column="Description" original="Print Invoices to paper or send PDF">พิมพ์ใบแจ้งหนี้ลงกระดาษ หรือส่งเป็น PDF</value>
+ </row>
+ <row id="348" trl="Y">
+  <value column="Name" original="Deliver Assets">ส่งมอบสินทรัพย์</value>
+  <value column="Description" original="Deliver Customer Assets electronically">ส่งมอบสินทรัพย์ลูกค้าทางอิเล็คทรอนิคส์</value>
+ </row>
+ <row id="349" trl="Y">
+  <value column="Name" original="Expenses (not reimbursed)">ค่าใช้จ่าย (ค้างจ่าย)</value>
+  <value column="Description" original="View expenses and charges not reimbursed">ดูค่าใช้จ่าย และ การคิดเงิน ที่ยังค้างจ่ายอยู่</value>
+ </row>
+ <row id="350" trl="Y">
+  <value column="Name" original="Statement of Accounts">ใบแจ้งยอดบัญชี</value>
+  <value column="Description" original="Report Account Statement Beginning Balance and Transactions">รายงานยอดบัญชีเริ่มต้นและรายการธุรกรรม</value>
+ </row>
+ <row id="351" trl="Y">
+  <value column="Name" original="SQL Process">ประมวลผล SQL</value>
+  <value column="Description" original="Process SQL Statements">ประมวลผล ประโยค SQL</value>
+ </row>
+ <row id="352" trl="Y">
+  <value column="Name" original="Accounting Fact Balances">ยอดบัญชีตามข้อเท็จจริง</value>
+  <value column="Description" original="Query Accounting Daily Balances">สอบถามยอดบัญชีประจำวัน</value>
+ </row>
+ <row id="353" trl="Y">
+  <value column="Name" original="Attribute Set">ชุดคุณสมบัติ</value>
+  <value column="Description" original="Maintain Product Attribute Set">การจัดการชุดคุณสมบัติ</value>
+ </row>
+ <row id="354" trl="Y">
+  <value column="Name" original="Serial No Control">ควบคุม Serial No</value>
+  <value column="Description" original="Product Serial Number Control">ควบคุม Serial No ของสินค้า</value>
+ </row>
+ <row id="355" trl="Y">
+  <value column="Name" original="Lot Control">ควบคุม Lot</value>
+  <value column="Description" original="Product Lot Control">ควบคุม Lot สินค้า</value>
+ </row>
+ <row id="356" trl="Y">
+  <value column="Name" original="Lot">Lot</value>
+  <value column="Description" original="Product Lot Definition">นิยามของ Lot สินค้า</value>
+ </row>
+ <row id="357" trl="Y">
+  <value column="Name" original="Product Attributes">Lot และ Serial No</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="358" trl="Y">
+  <value column="Name" original="Attribute Search">ค้นตามคุณสมบัติ</value>
+  <value column="Description" original="Common Search Attribute ">ค้นหาตามคุณสมบัติร่วม</value>
+ </row>
+ <row id="359" trl="Y">
+  <value column="Name" original="Attribute">คุณสมบัติ</value>
+  <value column="Description" original="Product Attribute">คุณสมบัติสินค้า</value>
+ </row>
+ <row id="360" trl="Y">
+  <value column="Name" original="Expense Invoice (Alpha)">ใบแจ้งหนี้ค่าใช้จ่าย (Alpha)</value>
+  <value column="Description" original="Payables expense invoices - This is Alpha Functionality">ใบแจ้งหนี้ค่าใช้จ่ายที่ต้องชำระ - This is Alpha Functionality</value>
+ </row>
+ <row id="361" trl="Y">
+  <value column="Name" original="Recurring">สร้างเอกสารออกประจำ (Recurring)</value>
+  <value column="Description" original="Recurring Document">สร้างเอกสารออกประจำ (Recurring)</value>
+ </row>
+ <row id="362" trl="Y">
+  <value column="Name" original="Role Data Access">การเข้าถึงบทบาท</value>
+  <value column="Description" original="Maintain Data Access Rules">การจัดการกฎเกณฑ์การเข้าถึงข้อมูล</value>
+ </row>
+ <row id="363" trl="Y">
+  <value column="Name" original="Import Inventory">นำเข้าสินค้าคงคลัง</value>
+  <value column="Description" original="Import Inventory Transactions">นำเข้ารายการธุรกรรมสินค้าคงคลัง</value>
+ </row>
+ <row id="364" trl="Y">
+  <value column="Name" original="Project Type">ประเภทโครงการ</value>
+  <value column="Description" original="Maintain Project Type and Phase">ดูแลประเภทโครงการ และ เฟสของโครงการ</value>
+ </row>
+ <row id="365" trl="Y">
+  <value column="Name" original="Print Label">ฉลากพิมพ์</value>
+  <value column="Description" original="Print Label Format">รูปแบบของฉลากพิมพ์</value>
+ </row>
+ <row id="366" trl="Y">
+  <value column="Name" original="Session Audit">ตรวจสอบช่วงเวลา</value>
+  <value column="Description" original="Audit of User Sessions">รายการ ช่วงเวลาต่างๆ ของผู้ใช้</value>
+ </row>
+ <row id="367" trl="Y">
+  <value column="Name" original="Security">ความปลอดภัย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="368" trl="Y">
+  <value column="Name" original="Change Audit">บันทึกการเปลี่ยนแปลง</value>
+  <value column="Description" original="Audit of data changes">บันทึกของการเปลี่ยนแปลงข้อมูล</value>
+ </row>
+ <row id="369" trl="Y">
+  <value column="Name" original="Time Type">ชนิดเวลา</value>
+  <value column="Description" original="Maintain Time Recording Type">การจัดการชนิดการบันทึกเวลา</value>
+ </row>
+ <row id="370" trl="Y">
+  <value column="Name" original="Cost Type">แบบต้นทุน</value>
+  <value column="Description" original="Maintain Cost Types">การจัดการแบบต้นทุน</value>
+ </row>
+ <row id="371" trl="Y">
+  <value column="Name" original="Advertisement">การโฆษณา</value>
+  <value column="Description" original="Web Advertisement">การโฆษณาทางเว็บ</value>
+ </row>
+ <row id="372" trl="Y">
+  <value column="Name" original="Web">บริหารเว็บ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="373" trl="Y">
+  <value column="Name" original="Import Bank Statement">นำเข้าเอกสารสรุปรายการเดินบัญชี</value>
+  <value column="Description" original="Import Bank Statements">นำเข้าเอกสารสรุปรายการเดินบัญชี</value>
+ </row>
+ <row id="374" trl="Y">
+  <value column="Name" original="Import Payment">นำเข้าการจ่ายเงิน</value>
+  <value column="Description" original="Import Payments">นำเข้าการจ่ายเงิน</value>
+ </row>
+ <row id="375" trl="Y">
+  <value column="Name" original="Click">คลิก</value>
+  <value column="Description" original="Maintain Web Click">การจัดการข้อมูล คลิก บนเว็บ</value>
+ </row>
+ <row id="376" trl="Y">
+  <value column="Name" original="Import Order">นำเข้าใบสั่งสินค้า</value>
+  <value column="Description" original="Import Orders">นำเข้าใบสั่งสินค้า</value>
+ </row>
+ <row id="377" trl="Y">
+  <value column="Name" original="Invoice Payment Schedule">กำหนดการจ่ายเงินตามใบแจ้งหนี้</value>
+  <value column="Description" original="Maintain Invoice Payment Schedule">การจัดการกำหนดการจ่ายเงินตามใบแจ้งหนี้</value>
+ </row>
+ <row id="378" trl="Y">
+  <value column="Name" original="Import GL Journal">นำเข้ารายการบัญชีแยกประเภท</value>
+  <value column="Description" original="Import General Ledger Journals">นำเข้ารายการบัญชีแยกประเภท</value>
+ </row>
+ <row id="379" trl="Y">
+  <value column="Name" original="Alert">เตือน</value>
+  <value column="Description" original="Adempiere Alert">คำเตือนในระบบ Compiere</value>
+ </row>
+ <row id="380" trl="Y">
+  <value column="Name" original="Counter">ตัวนับ</value>
+  <value column="Description" original="Web Counter">ตัวนับในเว็บ</value>
+ </row>
+ <row id="381" trl="Y">
+  <value column="Name" original="Freight Category">ประเภทค่าขนส่ง</value>
+  <value column="Description" original="Maintain Freight Categories">การจัดการประเภทค่าขนส่ง</value>
+ </row>
+ <row id="382" trl="Y">
+  <value column="Name" original="Import Invoice">นำเข้าใบแจ้งหนี้</value>
+  <value column="Description" original="Import Invoices">นำเข้าใบแจ้งหนี้</value>
+ </row>
+ <row id="383" trl="Y">
+  <value column="Name" original="Cache Reset">ลบ Cache</value>
+  <value column="Description" original="Reset Cache of the System ** Close all Windows before proceeding **">ลบ Cache ของระบบ ** ปิดหน้าจอทั้งหมดก่อนที่จะเริ่มทำต่อไป **</value>
+ </row>
+ <row id="384" trl="Y">
+  <value column="Name" original="Accounting Dimensions">มิติทางการบัญชี</value>
+  <value column="Description" original="Maintain Non-Account Dimension Trees">ดูแล tree ในส่วนที่ไม่เกี่ยวกับบัญชี</value>
+ </row>
+ <row id="385" trl="Y">
+  <value column="Name" original="Replication">การทำสำเนา</value>
+  <value column="Description" original="Maintain Data Replication Targets">การจัดการเป้าหมายการทำสำเนาข้อมูล</value>
+ </row>
+ <row id="386" trl="Y">
+  <value column="Name" original="Replication Strategy">กลยุทธ์การทำสำเนา</value>
+  <value column="Description" original="Maintain Data Replication Strategy">การจัดการกลยุทธ์การทำสำเนาข้อมูล</value>
+ </row>
+ <row id="387" trl="Y">
+  <value column="Name" original="Project (Lines/Issues)">โครงการ (สั่งสินค้า)</value>
+  <value column="Description" original="Maintain Sales Order and Work Order Details">การจัดการโครงการคำสั่งขายและงานสั่งทำ</value>
+ </row>
+ <row id="388" trl="Y">
+  <value column="Name" original="Knowledge Base">ฐานความรู้</value>
+  <value column="Description" original="Maintain Knowledge Base">การจัดการฐานความรู้</value>
+ </row>
+ <row id="389" trl="Y">
+  <value column="Name" original="Knowledge Category">ประเภทความรู้</value>
+  <value column="Description" original="Maintain Knoweledge Categories and Values">การจัดการประเภทความรู้และค่าต่างๆ</value>
+ </row>
+ <row id="390" trl="Y">
+  <value column="Name" original="Knowledge Synonym">คำพ้องความรู้</value>
+  <value column="Description" original="Knowlege Keyword Synonym">คำพ้องคำสำคัญในความรู้</value>
+ </row>
+ <row id="391" trl="Y">
+  <value column="Name" original="Knowledge Source">แหล่งความรู้</value>
+  <value column="Description" original="Source of Knowledge Entries">แหล่งของข้อมูลความรู้</value>
+ </row>
+ <row id="392" trl="Y">
+  <value column="Name" original="Knowledge Base">ความรู้</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="393" trl="Y">
+  <value column="Name" original="Update Accounting Balance">ปรับปรุงยอดบัญชี</value>
+  <value column="Description" original="Update Daily Accounting Balances">ปรับปรุงยอดบัญชีรายวัน</value>
+ </row>
+ <row id="394" trl="Y">
+  <value column="Name" original="Business Partner Info">ข้อมูลบริษัทคู่ค้า</value>
+  <value column="Description" original="Document Information of Business Partners">เอกสารข้อมูลของบริษัทคู่ค้า</value>
+ </row>
+ <row id="395" trl="Y">
+  <value column="Name" original="Replication Setup">ตั้งระบบการทำสำเนา</value>
+  <value column="Description" original="Setup of data replication">ตั้งระบบของการทำสำเนาข้อมูล</value>
+ </row>
+ <row id="396" trl="Y">
+  <value column="Name" original="Send Mail Text">ส่ง Mail ข้อความ</value>
+  <value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">ส่ง EMails ไปยัง active subscribers of an Interest Area หรือกลุ่มบริษัทคู่ค้าธุรกิจ</value>
+ </row>
+ <row id="397" trl="Y">
+  <value column="Name" original="Merge Entities">รวม Entities</value>
+  <value column="Description" original="Merge From Entity to To Entity - Delete From">รวม Entity ต้นทางไปเป็น Entity ปลายทาง - ลบ Entity ต้นทาง</value>
+ </row>
+ <row id="398" trl="Y">
+  <value column="Name" original="Project Cycle Report">รายงานวงรอบโครงการ</value>
+  <value column="Description" original="Report Projects based on Project Cycle">รายงานโครงการตามวงรอบโครงการ</value>
+ </row>
+ <row id="399" trl="Y">
+  <value column="Name" original="Customer Assets">สินทรัพย์ลูกค้า</value>
+  <value column="Description" original="Report Customer Assets with Delivery Count">รายงานสินทรัพย์ลูกค้าพร้อมการนับส่งมอบ</value>
+ </row>
+ <row id="400" trl="Y">
+  <value column="Name" original="Asset Delivery Details">รายละเอียดการส่งมอบสินทรัพย์</value>
+  <value column="Description" original="Report Asset Deliveries Details">รายงานรายละเอียดการส่งมอบสินทรัพย์</value>
+ </row>
+ <row id="401" trl="Y">
+  <value column="Name" original="Issue to Project">ส่งเข้าโครงการ</value>
+  <value column="Description" original="Issue Material to Project from Receipt or manual Inventory Location">ส่งวัสดุเข้าโครงการจากการรับสินค้าหรือการย้ายสินค้าคงคลังด้วยมือ</value>
+ </row>
+ <row id="402" trl="Y">
+  <value column="Name" original="Generate PO from Project">สร้างใบสั่งซื้อจากโครงการ</value>
+  <value column="Description" original="Generate PO from Project Line(s)">สร้างใบสั่งซื้อจากรายการในโครงการ</value>
+ </row>
+ <row id="403" trl="Y">
+  <value column="Name" original="Project Detail Accounting Report">รายงานบัญชีรายละเอียดโครงการ</value>
+  <value column="Description" original="Accounting Fact Details of Project">รายละเอียดข้อเท็จจริงทางบัญชีของโครงการ</value>
+ </row>
+ <row id="404" trl="Y">
+  <value column="Name" original="Project Lines not Issued">รายการยังไม่ได้เข้าโครงการ</value>
+  <value column="Description" original="Lists Project Lines of a Work Order or Asset Project, which are not issued to the Project">แสดงรายการของใบสั่งงาน หรือโครงการสินทรัพย์, ซึ่งยังไม่ได้ส่งเข้าโครงการ</value>
+ </row>
+ <row id="405" trl="Y">
+  <value column="Name" original="Project POs not Issued">ใบสั่งซื้อยังไม่ได้เข้าโครงการ</value>
+  <value column="Description" original="Lists Project Lines with generated Purchase Orders of a Work Order or Asset Project, which are not issued to the Project">แสดงรายการของใบสั่งงาน หรือโครงการสินทรัพย์ ที่ได้ออกใบสั่งซื้อไปแล้ว, แต่ยังไม่ได้ส่งเข้าโครงการ</value>
+ </row>
+ <row id="406" trl="Y">
+  <value column="Name" original="RePrice Order/Invoice">กำหนดราคา ใบสั่งสินค้า/ใบแจ้งหนี้ ใหม่</value>
+  <value column="Description" original="Recalculate the price based on the latest price list version of an open order or invoice">คำนวนราคาใบสั่งสินค้าหรือใบแจ้งหนี้ที่ยังค้างอยู่ใหม่ตามรายการราคาเวอร์ชั่นล่าสุด</value>
+ </row>
+ <row id="407" trl="Y">
+  <value column="Name" original="Quote convert">แปลงใบเสนอราคา</value>
+  <value column="Description" original="Convert open Proposal or Quotation to Order">แปลงข้อเสนอหรือใบเสนอราคาที่ยังค้างอยู่ไปเป็นใบสั่งสินค้า</value>
+ </row>
+ <row id="408" trl="Y">
+  <value column="Name" original="Label Printer">เครื่องพิมพ์ฉลาก</value>
+  <value column="Description" original="Maintain Label Printer Definition">การจัดการนิยามเครื่องพิมพ์ฉลาก</value>
+ </row>
+ <row id="409" trl="Y">
+  <value column="Name" original="Verify Document Types">ตรวจสอบประเภทเอกสาร</value>
+  <value column="Description" original="Verify Document Types and Period Controls">ตรวจสอบประเภทเอกสาร</value>
+ </row>
+ <row id="410" trl="Y">
+  <value column="Name" original="Project Margin (Work Order)">กำไรโครงการ (งานสั่งทำ)</value>
+  <value column="Description" original="Work Order Project Lines (planned revenue) vs. Project Issues (costs)">รายการโครงการสั่งงาน (รายได้ตามแผน) vs. Project Issues (ต้นทุน)</value>
+ </row>
+ <row id="411" trl="Y">
+  <value column="Name" original="Storage Detail">รายละเอียดที่เก็บสินค้า</value>
+  <value column="Description" original="Storage Detail Report">รายงานรายละเอียดที่เก็บสินค้า</value>
+ </row>
+ <row id="412" trl="Y">
+  <value column="Name" original="Transaction Detail">รายงานความเคลื่อนไหวสินค้า</value>
+  <value column="Description" original="Transaction Detail Report">รายงานความเคลื่อนไหวสินค้า</value>
+ </row>
+ <row id="413" trl="Y">
+  <value column="Name" original="Aging">อายุหนี้</value>
+  <value column="Description" original="Aging Report">รายงานอายุหนี้</value>
+ </row>
+ <row id="414" trl="Y">
+  <value column="Name" original="Sales Rep Info">ข้อมูลตัวแทนจำหน่ายจำหน่าย</value>
+  <value column="Description" original="Company Agent (Sales Rep) Information">ข้อมูลตัวแทนจำหน่ายจำหน่ายบริษัท (พนักงานขาย)</value>
+ </row>
+ <row id="415" trl="Y">
+  <value column="Name" original="Clicks Monthy">จำนวนคลิกรายเดือน</value>
+  <value column="Description" original="Clicks per Month">จำนวนคลิกต่อเดือน</value>
+ </row>
+ <row id="416" trl="Y">
+  <value column="Name" original="Clicks Unprocessed">คลิกที่ยังไม่ได้ประมวลผล</value>
+  <value column="Description" original="Unprocessed Clicks">คลิกที่ยังไม่ได้ประมวลผล</value>
+ </row>
+ <row id="417" trl="Y">
+  <value column="Name" original="UnPosted Documents">เอกสารที่ยังไม่ได้ลงบัญชี</value>
+  <value column="Description" original="Unposted Documents">เอกสารที่ยังไม่ได้ลงบัญชี</value>
+ </row>
+ <row id="418" trl="Y">
+  <value column="Name" original="Currency Type">ประเภทอัตราแลกเปลี่ยน</value>
+  <value column="Description" original="Maintain Currency Conversion Rate Types">การจัดการแบบของอัตราแลกเปลี่ยนสกุลเงิน</value>
+ </row>
+ <row id="419" trl="Y">
+  <value column="Name" original="POS">ณ จุดขาย</value>
+  <value column="Description" original="Point Of Sales Terminal">เครื่องปลายทาง ณ จุดขาย</value>
+ </row>
+ <row id="420" trl="Y">
+  <value column="Name" original="Business Partner Organization">หน่วยงานบริษัทคู่ค้าธุรกิจ</value>
+  <value column="Description" original="Set and verify Organization ownership of Business Partners">ตั้งค่าและตรวจสอบ ความเป็นเจ้าของหน่วยงานของบริษัทคู่ค้าธุรกิจ</value>
+ </row>
+ <row id="421" trl="Y">
+  <value column="Name" original="Product Organization">หน่วยงานสินค้า</value>
+  <value column="Description" original="Set and verify Organization ownership of Products">ตั้งค่าและตรวจสอบความเป็นเจ้าของหน่วยงานของสินค้า</value>
+ </row>
+ <row id="422" trl="Y">
+  <value column="Name" original="Warehouse Organization">หน่วยงานคลังสินค้า</value>
+  <value column="Description" original="Set and verify Organization ownership of Warehouse">ตั้งค่าและตรวจสอบความเป็นเจ้าของหน่วยงานของคลังสินค้า</value>
+ </row>
+ <row id="423" trl="Y">
+  <value column="Name" original="Load Bank Statement">อ่านใบแจ้งยอดธนาคาร</value>
+  <value column="Description" original="Load Bank Statement">อ่านใบแจ้งยอดธนาคาร</value>
+ </row>
+ <row id="424" trl="Y">
+  <value column="Name" original="Delete Import">ลบการนำเข้า</value>
+  <value column="Description" original="Delete all data in Import Table">ลบข้อมูลทั้งหมดในตารางนำเข้า</value>
+ </row>
+ <row id="425" trl="Y">
+  <value column="Name" original="Import Currency Rate">นำเข้าอัตราแลกเปลี่ยน</value>
+  <value column="Description" original="Import Currency Conversion Rates">นำเข้าอัตราแลกเปลี่ยนสกุลเงิน</value>
+ </row>
+ <row id="426" trl="Y">
+  <value column="Name" original="BOM Drop">รายละเอียดบัญชีวัสดุ</value>
+  <value column="Description" original="Drop (expand) Bill of Materials">แสดงรายละเอียด (ขยาย) บัญชีวัสดุ (Bill of Materials)</value>
+ </row>
+ <row id="427" trl="Y">
+  <value column="Name" original="Workflow Responsible">รับผิดชอบเวิร์คโฟล</value>
+  <value column="Description" original="Responsible for Workflow Execution">รับผิดชอบต่อการทำเวิร์คโฟล</value>
+ </row>
+ <row id="428" trl="Y">
+  <value column="Name" original="Workflow Process">กระบวนการเวิร์คโฟล</value>
+  <value column="Description" original="Monitor workflow processes">ติดตามการประมวลผลเวิร์คโฟล</value>
+ </row>
+ <row id="429" trl="Y">
+  <value column="Name" original="Workflow Activities (all)">กิจกรรมเวิร์คโฟล (ทั้งหมด)</value>
+  <value column="Description" original="Monitor all Workflow activities">ติดตามกิจกรรมเวิร์คโฟลทั้งหมด</value>
+ </row>
+ <row id="430" trl="Y">
+  <value column="Name" original="Registration Attributes">คุณสมบัติขึ้นทะเบียน</value>
+  <value column="Description" original="Asset Registration Attributes">คุณสมบัติสำหรับขึ้นทะเบียนสินทรัพย์</value>
+ </row>
+ <row id="431" trl="Y">
+  <value column="Name" original="Registration">การขึ้นทะเบียน</value>
+  <value column="Description" original="User Asset Registration">การขึ้นทะเบียนสินทรัพย์ผู้ใช้</value>
+ </row>
+ <row id="432" trl="Y">
+  <value column="Name" original="Invoice Tax">รายงานการแจ้งหนี้ (DM)</value>
+  <value column="Description" original="Invoice Tax Reconciliation">รายงานการแจ้งหนี้ Invoice Tax</value>
+ </row>
+ <row id="433" trl="Y">
+  <value column="Name" original="Accounting Fact Details">รายงานบัญชีแยกประเภท (DM)</value>
+  <value column="Description" original="Accounting Fact Details Report">รายงานบัญชีแยกประเภท</value>
+ </row>
+ <row id="434" trl="Y">
+  <value column="Name" original="Accounting Fact Daily">ข้อเท็จจริงทางบัญชีประจำวัน</value>
+  <value column="Description" original="Accounting Fact Details summarized by Accounting Date">รายละเอียดข้อเท็จจริงทางบัญชีรวบรวมตามวันที่ลงบัญชี</value>
+ </row>
+ <row id="435" trl="Y">
+  <value column="Name" original="Accounting Fact Period">ข้อเท็จจริงทางบัญชีประจำงวด</value>
+  <value column="Description" original="Accounting Fact Details summarized by Accounting Period">รายละเอียดข้อเท็จจริงทางบัญชีรวบรวมตามงวดบัญชี</value>
+ </row>
+ <row id="436" trl="Y">
+  <value column="Name" original="Reopen Order">เปิดใบสั่งสินค้าซ้ำ</value>
+  <value column="Description" original="Open previously closed Order">เปิดใบสั่งสินค้าซึ่งปิดไปก่อนหน้านี้แล้วใหม่อีกครั้ง</value>
+ </row>
+ <row id="437" trl="Y">
+  <value column="Name" original="Bank Statement Matcher">จับคู่เอกสารธนาคาร</value>
+  <value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">อัลกอริทึม ที่จะใช้ในการจัคู่ ใบแจ้งรายการเดินบัญชีกับ บริษัทคู่ค้า, ใบแจ้งหนี้ และการจ่ายเงิน</value>
+ </row>
+ <row id="438" trl="Y">
+  <value column="Name" original="Payment Batch">ชุดการจ่ายเงิน</value>
+  <value column="Description" original="Process Payment Patches for EFT">ประมวลผลการจ่ายเงินเป็นชุดสำหรับการโอนเงินทางอิเล็คทรอนิคส์</value>
+ </row>
+ <row id="439" trl="Y">
+  <value column="Name" original="Workflow Processor">ตัวประมวลผลเวิร์คโฟล</value>
+  <value column="Description" original="Maintain Workflow Processor and Logs">การจัดการตัวประมวลผลและบันทึก</value>
+ </row>
+ <row id="440" trl="Y">
+  <value column="Name" original="Accounting Processor">ตัวประมวลผลบัญชี</value>
+  <value column="Description" original="Maintain Accounting Processor and Logs">การจัดการตัวประมวลผลบัญชี และบันทึก</value>
+ </row>
+ <row id="441" trl="Y">
+  <value column="Name" original="Organization Type">ประเภทหน่วยงาน/สาขา</value>
+  <value column="Description" original="Maintain Organization Types">การจัดการประเภทหน่วยงาน/สาขา</value>
+ </row>
+ <row id="442" trl="Y">
+  <value column="Name" original="Auction Buyer">ผู้ซื้อในการประมูล</value>
+  <value column="Description" original="Maintain Auction Buyer Information">การจัดการข้อมูลผู้ซื้อในการประมูล</value>
+ </row>
+ <row id="443" trl="Y">
+  <value column="Name" original="Auction Seller">ผู้ขายในการประมูล</value>
+  <value column="Description" original="Maintain Auction Seller Information">การจัดการข้อมูลผู้ขายในการประมูล</value>
+ </row>
+ <row id="444" trl="Y">
+  <value column="Name" original="Package">หีบห่อ</value>
+  <value column="Description" original="Manage Shipment Packages">จัดการหีบห่อเพื่อการจัดส่งสินค้า</value>
+ </row>
+ <row id="445" trl="Y">
+  <value column="Name" original="Distribution List">รายการกระจายสินค้า</value>
+  <value column="Description" original="Maintain Distribution Lists">ดูแลรายการกระจายสินค้า</value>
+ </row>
+ <row id="446" trl="Y">
+  <value column="Name" original="Alert Processor">ตัวประมวลผลการเตือน</value>
+  <value column="Description" original="Maintain Alert Processor/Server Parameter and Logs">การจัดการ พารามิเตอร์และบันทึก ของตัวประมวลผล/ตัวบริการการเตือน</value>
+ </row>
+ <row id="447" trl="Y">
+  <value column="Name" original="Bid Topic">หัวข้อประกวดราคา</value>
+  <value column="Description" original="Topic with Bids and Offers">หัวข้อพร้อมประกวดราคาและข้อเสนอ</value>
+ </row>
+ <row id="448" trl="Y">
+  <value column="Name" original="Subscription Type">แบบการบอกรับ</value>
+  <value column="Description" original="Maintain Subscription Types">การจัดการแบบการบอกรับ</value>
+ </row>
+ <row id="449" trl="Y">
+  <value column="Name" original="Subscription">การบอกรับ</value>
+  <value column="Description" original="Maintain Subscriptions and Deliveries">การจัดการการบอกรับและการส่งมอบ</value>
+ </row>
+ <row id="450" trl="Y">
+  <value column="Name" original="Scheduler">กระบวนการกำหนดการ</value>
+  <value column="Description" original="Maintain Schedule Processes and Logs">ดูแลกระบวนการกำหนดการและบันทึก</value>
+ </row>
+ <row id="451" trl="Y">
+  <value column="Name" original="Partner Relation">บริษัทคู่ค้าสัมพันธ์</value>
+  <value column="Description" original="Maintain Business Partner Relations">การจัดการบริษัทคู่ค้าสัมพันธ์</value>
+ </row>
+ <row id="452" trl="Y">
+  <value column="Name" original="RfQ Topic">หัวข้อขอราคา</value>
+  <value column="Description" original="Maintain RfQ Topics and Subscribers">การจัดการหัวข้อขอราคาและรายชื่อผู้จำหน่าย</value>
+ </row>
+ <row id="453" trl="Y">
+  <value column="Name" original="Auction Topic Type">แบบหัวข้อประมูล</value>
+  <value column="Description" original="Maintain Auction Topic Type and Categories">การจัดการ แบบหัวข้อและประเภทการประมูล</value>
+ </row>
+ <row id="454" trl="Y">
+  <value column="Name" original="RfQ">ขอราคา</value>
+  <value column="Description" original="Manage Request for Quotations">จัดการคำขอราคา</value>
+ </row>
+ <row id="455" trl="Y">
+  <value column="Name" original="RMA">RMA</value>
+  <value column="Description" original="Manage Return Material Authorization">จัดการ Return Material Authorization</value>
+ </row>
+ <row id="456" trl="Y">
+  <value column="Name" original="Server">เซิร์ฟเวอร์</value>
+  <value column="Description" original="Adempiere Server Maintenance">การจัดการคอมเพียร์เซิร์ฟเวอร์</value>
+ </row>
+ <row id="457" trl="Y">
+  <value column="Name" original="Sales Orders">คำสั่งขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="458" trl="Y">
+  <value column="Name" original="Sales Invoices">ใบแจ้งหนี้การขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="459" trl="Y">
+  <value column="Name" original="Shipments">การส่ง/คืนสินค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="460" trl="Y">
+  <value column="Name" original="Market Place">ตลาดประมูล</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="461" trl="Y">
+  <value column="Name" original="Sequence Check">ตรวจการเรียงลำดับ</value>
+  <value column="Description" original="Check System and Document Sequences">ตรวจการเรียงลำดับของระบบและเอกสาร</value>
+ </row>
+ <row id="462" trl="Y">
+  <value column="Name" original="Dunning Run">เร่งรัดหนี้</value>
+  <value column="Description" original="Manage Dunning Runs">จัดการการเร่งรัดหนี้</value>
+ </row>
+ <row id="463" trl="Y">
+  <value column="Name" original="Requisition">ขอซื้อ</value>
+  <value column="Description" original="Material Requisition">ขอซื้อวัสดุ</value>
+ </row>
+ <row id="464" trl="Y">
+  <value column="Name" original="GL Distribution">การกระจายบัญชีแยกประเภท</value>
+  <value column="Description" original="General Ledger Distribution">การกระจายบัญชีแยกประเภท</value>
+ </row>
+ <row id="465" trl="Y">
+  <value column="Name" original="Tree Maintenance">การจัดการ Tree</value>
+  <value column="Description" original="Maintain Trees">การจัดการ Tree</value>
+ </row>
+ <row id="466" trl="Y">
+  <value column="Name" original="RfQ Response">ตอบสนองคำขอราคา</value>
+  <value column="Description" original="Manage RfQ Responses">จัดการการตอบสนองคำราคา</value>
+ </row>
+ <row id="467" trl="Y">
+  <value column="Name" original="RfQ Response">ตอบสนองคำขอราคา</value>
+  <value column="Description" original="Detail RfQ Responses">รายละเอียดการตอบสนองคำขอราคา</value>
+ </row>
+ <row id="468" trl="Y">
+  <value column="Name" original="RfQ Unanswered">คำขอราคาที่ยังไม่มีคำตอบ</value>
+  <value column="Description" original="Outstanding RfQ Responses">การตอบสนองคำขอราคาที่ยังค้างอยู่</value>
+ </row>
+ <row id="469" trl="Y">
+  <value column="Name" original="Workflow Editor">ตัวแก้ไขเวิร์คโฟล</value>
+  <value column="Description" original="Edit Workflows">แก้ไขเวิร์คโฟล</value>
+ </row>
+ <row id="470" trl="Y">
+  <value column="Name" original="Workflow Activities">กิจกรรมเวิร์คโฟล</value>
+  <value column="Description" original="My active workflow activities">กิจกรรมเวิร์คโฟลที่กำลังทำงานอยู่</value>
+ </row>
+ <row id="471" trl="Y">
+  <value column="Name" original="Open Requisitions">รายการสืบราคาค้าง</value>
+  <value column="Description" original="Detail Open Requisition Information">ข้อมูลรายละเอียดการสืบราคาที่ยังค้างอยู่</value>
+ </row>
+ <row id="472" trl="Y">
+  <value column="Name" original="Distribution Run">กระจายสินค้า</value>
+  <value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">กระจายสินค้าสร้างใบสั่งสินค้าเพื่อกระจายสินค้าให้กับรายชื่อบริษัทคู่ค้าที่เลือก</value>
+ </row>
+ <row id="473" trl="Y">
+  <value column="Name" original="UnLink Business Partner Org">ยกเลิกเชื่อมโยงบริษัทคู่ค้าหน่วยงาน</value>
+  <value column="Description" original="UnLink Business Partner from an Organization">ยกเลิกเชื่อมโยงบริษัทคู่ค้าธุรกิจจากหน่วยงาน</value>
+ </row>
+ <row id="474" trl="Y">
+  <value column="Name" original="Asset Delivery Month">ส่งมอบสินทรัพย์รายเดือน</value>
+  <value column="Description" original="Report Asset Deliveries Summary per month">รายงานสรุปการส่งมอบสินทรัพย์รายเดือน</value>
+ </row>
+ <row id="475" trl="Y">
+  <value column="Name" original="Access Audit">ตรวจสอบการเข้าถึง</value>
+  <value column="Description" original="Audit of Access to data or resources">บันทึกของการเข้าถึงข้อมูลหรือทรัพยากร</value>
+ </row>
+ <row id="476" trl="Y">
+  <value column="Name" original="Counter Document">เอกสารตรงกันข้าม</value>
+  <value column="Description" original="Maintain Counter Document Types">การจัดการชนิดเอกสารตรงกันข้าม</value>
+ </row>
+ <row id="477" trl="Y">
+  <value column="Name" original="Demand">อุปสงค์</value>
+  <value column="Description" original="Maintain Material Demand">การจัดการความต้องการวัสดุ</value>
+ </row>
+ <row id="478" trl="Y">
+  <value column="Name" original="Forecast">ประมาณการ</value>
+  <value column="Description" original="Maintain Material Forecast">การจัดการประมาณการวัสดุ</value>
+ </row>
+ <row id="479" trl="Y">
+  <value column="Name" original="Ship/Receipt Confirm">ยืนยันส่ง/รับสินค้า</value>
+  <value column="Description" original="Material Shipment or Receipt Confirmation">การยืนยันการส่งสินค้าหรือการรับสินค้า</value>
+ </row>
+ <row id="480" trl="Y">
+  <value column="Name" original="RMA Type">ประเภท RMA</value>
+  <value column="Description" original="Return Material Authorization Type">แบบ Return Material Authorization</value>
+ </row>
+ <row id="481" trl="Y">
+  <value column="Name" original="Open Confirmation Details">รายละเอียดการยืนยันรายการค้าง</value>
+  <value column="Description" original="Open Shipment or Receipt Confirmation Details">รายละเอียดการยืนยันรายการส่งหรือรับสินค้าที่ยังค้างอยู่</value>
+ </row>
+ <row id="482" trl="Y">
+  <value column="Name" original="Open Confirmations">การยืนยันรายการค้าง</value>
+  <value column="Description" original="Open Shipment or Receipt Confirmations">การยืนยันรายการส่งหรือรับสินค้าที่ยังค้างอยู่</value>
+ </row>
+ <row id="483" trl="Y">
+  <value column="Name" original="Process Audit">ตรวจสอบกระบวนการ</value>
+  <value column="Description" original="Audit process use">กระบวนการตรวจสอบที่ใช้</value>
+ </row>
+ <row id="484" trl="Y">
+  <value column="Name" original="Move Confirmation">ยืนยันการเคลื่อนย้าย</value>
+  <value column="Description" original="Confirm Inventory Moves">ยืนยันการเคลื่อนย้ายสินค้าคงคลัง</value>
+ </row>
+ <row id="485" trl="Y">
+  <value column="Name" original="Print Format Detail">รายละเอียดรูปแบบพิมพ์</value>
+  <value column="Description" original="Print Format Detail Report">รายงานรายละเอียดรูปแบบพิมพ์</value>
+ </row>
+ <row id="486" trl="Y">
+  <value column="Name" original="Import Confirmations">นำเข้าการยืนยัน</value>
+  <value column="Description" original="Import Receipt/Shipment Confirmation Lines">นำเข้ารายการการยืนยัน รับสินค้า/ส่งสินค้า</value>
+ </row>
+ <row id="487" trl="Y">
+  <value column="Name" original="Reset Password">ยกเลิกรหัสผ่าน</value>
+  <value column="Description" original="Reset Passwords for User">ยกเลิกรหัสผ่านสำหรับผู้ใช้</value>
+ </row>
+ <row id="488" trl="Y">
+  <value column="Name" original="SLA Criteria">เงื่อนไขระดับบบริการ</value>
+  <value column="Description" original="Service Level Agreement Criteria">เงื่อนไขข้อตกลงระดับบบริการ</value>
+ </row>
+ <row id="489" trl="Y">
+  <value column="Name" original="SLA by Partner">ระดับบบริการบริษัทคู่ค้า</value>
+  <value column="Description" original="Service Level Agreement">ข้อตกลงระดับบบริการ</value>
+ </row>
+ <row id="490" trl="Y">
+  <value column="Name" original="Price List Schema">โครงสร้างรายการราคา</value>
+  <value column="Description" original="Maintain Price List Schema">การจัดการโครงสร้างรายการราคา</value>
+ </row>
+ <row id="491" trl="Y">
+  <value column="Name" original="POS Terminal">เครื่องปลายทาง POS</value>
+  <value column="Description" original="Maintain your Point of Sales Terminal">การจัดการเครื่องปลายทาง POSของคุณ</value>
+ </row>
+ <row id="492" trl="Y">
+  <value column="Name" original="POS Key Layout">ผังแป้น POS</value>
+  <value column="Description" original="POS Function Key Layout">ผังแป้นฟังก์ชั่น ณ จุดขาย</value>
+ </row>
+ <row id="493" trl="Y">
+  <value column="Name" original="Material Receipt Details">รายละเอียดการรับสินค้า</value>
+  <value column="Description" original="Material Receipt Detail Information">ข้อมูลรายละเอียดการรับสินค้า</value>
+ </row>
+ <row id="494" trl="Y">
+  <value column="Name" original="Shipment Details">รายละเอียดการส่งสินค้า</value>
+  <value column="Description" original="Shipment Detail Information">ข้อมูลรายละเอียดการส่งสินค้า</value>
+ </row>
+ <row id="495" trl="Y">
+  <value column="Name" original="Role Access Update">ปรับปรุงการเข้าถึงบทบาท</value>
+  <value column="Description" original="Update the access rights of a role or roles of a client">ปรับปรุงสิทธิ์การเข้าถึงของบทบาทต่างๆของผู้ใช้หนึ่งๆ</value>
+ </row>
+ <row id="496" trl="Y">
+  <value column="Name" original="Reset Allocation">ยกเลิกการจัดสรร</value>
+  <value column="Description" original="Reset (delete) allocation of invoices to payments">ยกเลิก (ลบ) การจัดสรรใบแจ้งหนี้เพื่อการจ่ายเงิน</value>
+ </row>
+ <row id="497" trl="Y">
+  <value column="Name" original="Auto Allocation">การจัดสรรอัตโนมัติ</value>
+  <value column="Description" original="Automatic allocation of invoices to payments">การจัดสรรใบแจ้งหนี้เพื่อการจ่ายเงินโดยอัตโนมัติ</value>
+ </row>
+ <row id="498" trl="Y">
+  <value column="Name" original="System Registration">ลงทะเบียนระบบ</value>
+  <value column="Description" original="Register your System">ลงทะเบียนระบบ</value>
+ </row>
+ <row id="499" trl="Y">
+  <value column="Name" original="Reapply Customizations">ใช้การปรับแต่งที่บันทึกไว้อีกครั้ง</value>
+  <value column="Description" original="If you identified customizations in the Change Log, you can reapply them">ถ้าคุณแสดงการปรับแต่งไว้ในบันทึกการเปลี่ยนแปลง, คุณก็สามารถใช้การปรับแต่งนั้นใหม่ได้</value>
+ </row>
+ <row id="500" trl="Y">
+  <value column="Name" original="Workflow to Client">ย้ายเวิร์คโฟลเข้าบริษัท</value>
+  <value column="Description" original="Move custom workflow elements to the current client">ย้ายองค์ประกอบเวิร์คโฟลที่ปรับแต่งเข้าไปในบริษัทปัจจุบัน</value>
+ </row>
+ <row id="501" trl="Y">
+  <value column="Name" original="Workflow">เวิร์คโฟล</value>
+  <value column="Description" original="Adempiere Workflow">เวิร์คโฟลของคอมเปียร์</value>
+ </row>
+ <row id="502" trl="Y">
+  <value column="Name" original="Trial Balance">งบทดลอง</value>
+  <value column="Description" original="Trial Balance for a period or date range">งบทดลองสำหรับงวดหรือช่วงวันที่หนึ่งๆ</value>
+ </row>
+ <row id="503" trl="Y">
+  <value column="Name" original="Internal Use Inventory">เบิกสินค้าใช้ภายในบริษัท</value>
+  <value column="Description" original="Enter Internal Use of Inventory">ระบุสินค้าที่เบิกใช้ภายในบริษัท</value>
+ </row>
+ <row id="504" trl="Y">
+  <value column="Name" original="Product UOM Convert">การแปลงหน่วยสินค้า</value>
+  <value column="Description" original="Brack-up or repackage same Products with different UOM">Brack-up or repackage same Products with different UOM</value>
+ </row>
+ <row id="505" trl="Y">
+  <value column="Name" original="Print Dunning Letters">Print Dunning Letters</value>
+  <value column="Description" original="Print Dunning letters to paper or send PDF">Print Dunning letters to paper or send PDF</value>
+ </row>
+ <row id="506" trl="Y">
+  <value column="Name" original="Validate Business Partner">ตรวจสอบบริษัทคู่ค้า</value>
+  <value column="Description" original="Check data consistency of Business Partner">Check data consistency of Business Partner</value>
+ </row>
+ <row id="507" trl="Y">
+  <value column="Name" original="Order Batch Process">Order Batch Process</value>
+  <value column="Description" original="Process Orders in Batch">Process Orders in Batch</value>
+ </row>
+ <row id="508" trl="Y">
+  <value column="Name" original="Archive Viewer">ดูเอกสารที่ถูกบันทึกไว้</value>
+  <value column="Description" original="View automatically archived Documents">ดูเอกสารที่ถูกเก็บแบบอัตโนมัติ</value>
+ </row>
+ <row id="509" trl="Y">
+  <value column="Name" original="UnAllocated Invoices">UnAllocated Invoices</value>
+  <value column="Description" original="Invoices not allocated to Payments">Invoices not allocated to Payments</value>
+ </row>
+ <row id="510" trl="Y">
+  <value column="Name" original="UnAllocated Payments">UnAllocated Payments</value>
+  <value column="Description" original="Payments not allocated to Invoices">Payments not allocated to Invoices</value>
+ </row>
+ <row id="511" trl="Y">
+  <value column="Name" original="Payment Details">Payment Details</value>
+  <value column="Description" original="Payment Detail Report">Payment Detail Report</value>
+ </row>
+ <row id="512" trl="Y">
+  <value column="Name" original="Business Partner Open">รายงานลูกหนี้ค้างชำระ</value>
+  <value column="Description" original="Business Partner Open Amount">รายงานลูกหนี้ค้างชำระ</value>
+ </row>
+ <row id="513" trl="Y">
+  <value column="Name" original="Commission Run Detail">Commission Run Detail</value>
+  <value column="Description" original="Commission Run Detail Report">Commission Run Detail Report</value>
+ </row>
+ <row id="514" trl="Y">
+  <value column="Name" original="Synchronize Doc Translation">Synchronize Doc Translation</value>
+  <value column="Description" original="Synchronize Document Translation">Synchronize Document Translation</value>
+ </row>
+ <row id="515" trl="Y">
+  <value column="Name" original="Material Reference">Material Reference</value>
+  <value column="Description" original="Material Transactions Cross Reference (used/resourced)">Material Transactions Cross Reference (used/resourced)</value>
+ </row>
+ <row id="516" trl="Y">
+  <value column="Name" original="Invoice Batch">บันทึกค่าใช้จ่าย</value>
+  <value column="Description" original="Expense Invoice Batch">Expense Invoice Batch</value>
+ </row>
+ <row id="517" trl="Y">
+  <value column="Name" original="Window Customization">การปรับแต่งหน้าจอ</value>
+  <value column="Description" original="Define Window Customization for Role/User">ให้นิยามการปรับแต่งการปรับแต่งหน้าจอ</value>
+ </row>
+ <row id="518" trl="Y">
+  <value column="Name" original="EDI Definition">นิยาม EDI</value>
+  <value column="Description" original="Maintain EDI Definition">การจัดการนิยาม EDI</value>
+ </row>
+ <row id="519" trl="Y">
+  <value column="Name" original="EDI Transaction">ธุรกรรม EDI</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="520" trl="Y">
+  <value column="Name" original="Product Costs">ต้นทุนสินค้า</value>
+  <value column="Description" original="Maintain Product Costs">จัดการต้นทุนสินค้า</value>
+ </row>
+ <row id="521" trl="Y">
+  <value column="Name" original="Cost Element">Cost Element</value>
+  <value column="Description" original="Maintain Product Cost Element">Maintain Product Cost Element</value>
+ </row>
+ <row id="522" trl="Y">
+  <value column="Name" original="Costing">ต้นทุน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="523" trl="Y">
+  <value column="Name" original="Request Status">สถานะคำร้อง</value>
+  <value column="Description" original="Maintain Request Status">การจัดการ การกำหนดสถานะคำร้อง</value>
+ </row>
+ <row id="524" trl="Y">
+  <value column="Name" original="Request Standard Response">Request Standard Response</value>
+  <value column="Description" original="Maintain Request Standard Response ">Maintain Request Standard Response </value>
+ </row>
+ <row id="525" trl="Y">
+  <value column="Name" original="Request Resolution">Request Resolution</value>
+  <value column="Description" original="Maintain Request Resolutions">Maintain Request Resolutions</value>
+ </row>
+ <row id="526" trl="Y">
+  <value column="Name" original="Request Group">กลุ่มผู้ร้องขอ</value>
+  <value column="Description" original="Maintain Request Group">การจัดการกลุ่มของผู้ร้องขอ</value>
+ </row>
+ <row id="527" trl="Y">
+  <value column="Name" original="Request Category">กลุ่มคำร้อง</value>
+  <value column="Description" original="Maintain Request Category">การจัดการกลุ่มคำร้อง</value>
+ </row>
+ <row id="528" trl="Y">
+  <value column="Name" original="Request">คำร้อง</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="529" trl="Y">
+  <value column="Name" original="Web Store">Web Store</value>
+  <value column="Description" original="Define Web Store">Define Web Store</value>
+ </row>
+ <row id="530" trl="Y">
+  <value column="Name" original="Position">ตำแหน่งงาน</value>
+  <value column="Description" original="Maintain Job Positions">ตำแหน่งงาน</value>
+ </row>
+ <row id="531" trl="Y">
+  <value column="Name" original="Position Category">ประเภทตำแหน่งงาน</value>
+  <value column="Description" original="Maintain Job Position Categories">กำหนดประเภทตำแหน่งงาน</value>
+ </row>
+ <row id="532" trl="Y">
+  <value column="Name" original="Remuneration">ค่าตอบแทน</value>
+  <value column="Description" original="Maintain Remuneration">การจัดการค่าตอบแทน</value>
+ </row>
+ <row id="533" trl="Y">
+  <value column="Name" original="BOM Change Notice">การเปลี่ยนแปลงใบรายการวัตถุดิบ (BOM Change Notice)</value>
+  <value column="Description" original="Maintain Bill of Materials (Engineering) Change Notice (Version)">การจัดการ การเปลี่ยนแปลงใบรายการวัตถุดิบ (ฝ่ายวิศวกรรม) ควบคุมการเปลียนแปล (เวอร์ชั่น)</value>
+ </row>
+ <row id="534" trl="Y">
+  <value column="Name" original="Product BOM">Product BOM</value>
+  <value column="Description" original="Maintain Product Bill of Materials">Maintain Product Bill of Materials</value>
+ </row>
+ <row id="535" trl="Y">
+  <value column="Name" original="Invoice Requests">Invoice Requests</value>
+  <value column="Description" original="Create Invoice for Requests">Create Invoice for Requests</value>
+ </row>
+ <row id="536" trl="Y">
+  <value column="Name" original="Change Notice">Change Notice</value>
+  <value column="Description" original="Maintain (Engineering) Change Notice (Version)">Maintain (Engineering) Change Notice (Version)</value>
+ </row>
+ <row id="537" trl="Y">
+  <value column="Name" original="Storage Cleanup">Storage Cleanup</value>
+  <value column="Description" original="Inventory Storage Cleanup">Inventory Storage Cleanup</value>
+ </row>
+ <row id="538" trl="Y">
+  <value column="Name" original="Invoice Not Realized Gain/Loss">Invoice Not Realized Gain/Loss</value>
+  <value column="Description" original="Invoice Not Realized Gain &amp; Loss Report">Invoice Not Realized Gain &amp; Loss Report</value>
+ </row>
+ <row id="540" trl="Y">
+  <value column="Name" original="Product Cost">ต้นทุนสินค้า</value>
+  <value column="Description" original="Product Cost Report">รายงานต้นทุนสินค้า</value>
+ </row>
+ <row id="541" trl="Y">
+  <value column="Name" original="Product Cost Summary">สรุปต้นทุนสินค้า</value>
+  <value column="Description" original="Product Cost Summary Report">รายงานสรุปต้นทุนสินค้า</value>
+ </row>
+ <row id="542" trl="Y">
+  <value column="Name" original="Product Cost Detail">รายละเอียดต้นทุนสินค้า</value>
+  <value column="Description" original="Product Invoice Cost Detail Report">รายงานรายละเอียดต้นทุนสินค้าต่อใบแจ้งหนี้</value>
+ </row>
+ <row id="543" trl="Y">
+  <value column="Name" original="Order Detail">Order Detail</value>
+  <value column="Description" original="Order Detail Report">Order Detail Report</value>
+ </row>
+ <row id="544" trl="Y">
+  <value column="Name" original="Business Partner Detail">รายละเอียดบริษัทคู่ค้า</value>
+  <value column="Description" original="Business Partner Detail Report">Business Partner Detail Report</value>
+ </row>
+ <row id="545" trl="Y">
+  <value column="Name" original="Attribute Set Instance">Attribute Set Instance</value>
+  <value column="Description" original="View Attribute Set Instance detail and use">View Attribute Set Instance detail and use</value>
+ </row>
+ <row id="546" trl="Y">
+  <value column="Name" original="Create Costing Records">สร้างข้อมูลต้นทุน</value>
+  <value column="Description" original="Create Costing Records">สร้างข้อมูลต้นทุน</value>
+ </row>
+ <row id="547" trl="Y">
+  <value column="Name" original="Tax Declaration">Tax Declaration</value>
+  <value column="Description" original="Define the declaration to the tax authorities">Define the declaration to the tax authorities</value>
+ </row>
+ <row id="548" trl="Y">
+  <value column="Name" original="Reporting Hierarchy">ลำดับชั้นรายงาน</value>
+  <value column="Description" original="Define Reporting Hierarchy">การกำหนดลำดับชั้นรายงาน</value>
+ </row>
+ <row id="549" trl="Y">
+  <value column="Name" original="Create PO from Requisition">สร้างใบสั่งซื้อจากใบขอซื้อ</value>
+  <value column="Description" original="Create Purchase Orders from Requisitions">สร้างใบสั่งซื้อจากใบขอซื้อ</value>
+ </row>
+ <row id="550" trl="Y">
+  <value column="Name" original="Budget Control">การควบคุมงบประมาณ</value>
+  <value column="Description" original="Maintain Budget Controls">Maintain Budget Controls</value>
+ </row>
+ <row id="551" trl="Y">
+  <value column="Name" original="GL Fund (Alpha)">GL Fund (Alpha)</value>
+  <value column="Description" original="Maintain Fund Controls">Maintain Fund Controls</value>
+ </row>
+ <row id="552" trl="Y">
+  <value column="Name" original="System Issue Report">System Issue Report</value>
+  <value column="Description" original="Automatically created or manually entered System Issue Reports">Automatically created or manually entered System Issue Reports</value>
+ </row>
+ <row id="553" trl="Y">
+  <value column="Name" original="Quarter Invoice Product">Quarter Invoice Product</value>
+  <value column="Description" original="Imvoice Report by Product per Quarter">Imvoice Report by Product per Quarter</value>
+ </row>
+ <row id="554" trl="Y">
+  <value column="Name" original="Monthly Invoice Product">Monthly Invoice Product</value>
+  <value column="Description" original="Imvoice Report by Product per Month">Imvoice Report by Product per Month</value>
+ </row>
+ <row id="555" trl="Y">
+  <value column="Name" original="Performance Indicators">Performance Indicators</value>
+  <value column="Description" original="View Performance Indicators">View Performance Indicators</value>
+ </row>
+ <row id="556" trl="Y">
+  <value column="Name" original="Performance Color Schema">Performance Color Schema</value>
+  <value column="Description" original="Maintain Performance Color Schema">Maintain Performance Color Schema</value>
+ </row>
+ <row id="557" trl="Y">
+  <value column="Name" original="Performance Benchmark">Performance Benchmark</value>
+  <value column="Description" original="Performance Benchmark">Performance Benchmark</value>
+ </row>
+ <row id="558" trl="Y">
+  <value column="Name" original="Performance Ratio">Performance Ratio</value>
+  <value column="Description" original="Maintain Performance Ratios">Maintain Performance Ratios</value>
+ </row>
+ <row id="559" trl="Y">
+  <value column="Name" original="Issue Recommendation">Issue Recommendation</value>
+  <value column="Description" original="Maintain Issue Recommendation">Maintain Issue Recommendation</value>
+ </row>
+ <row id="560" trl="Y">
+  <value column="Name" original="Issue Status">Issue Status</value>
+  <value column="Description" original="Maintain Issue Status">Maintain Issue Status</value>
+ </row>
+ <row id="561" trl="Y">
+  <value column="Name" original="Known Issue">Known Issue</value>
+  <value column="Description" original="Maintain Known Issue">Maintain Known Issue</value>
+ </row>
+ <row id="562" trl="Y">
+  <value column="Name" original="Issue Project">Issue Project</value>
+  <value column="Description" original="Maintain Issue Management Project Links">Maintain Issue Projects</value>
+ </row>
+ <row id="563" trl="Y">
+  <value column="Name" original="Issue User">Issue User</value>
+  <value column="Description" original="User who reported Issues">User who reported Issues</value>
+ </row>
+ <row id="564" trl="Y">
+  <value column="Name" original="Issue System">Issue System</value>
+  <value column="Description" original="Maintain Systems">Maintain Systems</value>
+ </row>
+ <row id="565" trl="Y">
+  <value column="Name" original="Product Attribute Grid">Product Attribute Grid</value>
+  <value column="Description" original="Maintain Products with Attributes in a Table Grid">Maintain Products with Attributes in a Table Grid</value>
+ </row>
+ <row id="566" trl="Y">
+  <value column="Name" original="Collaboration">Collaboration</value>
+  <value column="Description" original="Collaboration and Content Management">Collaboration and Content Management</value>
+ </row>
+ <row id="570" trl="Y">
+  <value column="Name" original="Template">เทมแพล็ท</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="573" trl="Y">
+  <value column="Name" original="Media Item">Media Item</value>
+  <value column="Description" original="Maintain Web Media">Maintain Web Media</value>
+ </row>
+ <row id="574" trl="Y">
+  <value column="Name" original="News Channel">News Channel</value>
+  <value column="Description" original="Define News Channels, write and publish articles">Define News Channels, write and publish articles</value>
+ </row>
+ <row id="576" trl="Y">
+  <value column="Name" original="Web Ad Management">Web Ad Management</value>
+  <value column="Description" original="Content Management Ad Management defines the needed categories and items">Content Management Ad Management defines the needed categories and items</value>
+ </row>
+ <row id="578" trl="Y">
+  <value column="Name" original="View Chat">ดูการสนทนา</value>
+  <value column="Description" original="View discussions / chats">View discussions / chats</value>
+ </row>
+ <row id="579" trl="Y">
+  <value column="Name" original="Web Project">Web Project</value>
+  <value column="Description" original="Maintain Web Project (Content Management)">Maintain Web Project (Content Management)</value>
+ </row>
+ <row id="583" trl="Y">
+  <value column="Name" original="Chat Type">ประเภทการสนทนา</value>
+  <value column="Description" original="Maintain Chat Types">Maintain Chat Types</value>
+ </row>
+ <row id="584" trl="Y">
+  <value column="Name" original="Deploy Web Project">Deploy Web Project</value>
+  <value column="Description" original="Deploy Web Project">Deploy Web Project</value>
+ </row>
+ <row id="585" trl="Y">
+  <value column="Name" original="Verify BOMs">ตรวจสอบ BOMs</value>
+  <value column="Description" original="Verify BOM Structures">การตรวจสอบโครงสร้าง BOM</value>
+ </row>
+ <row id="586" trl="Y">
+  <value column="Name" original="Entity Type">Entity Type</value>
+  <value column="Description" original="Maintain System Entity Type">Maintain System Entity Type</value>
+ </row>
+ <row id="587" trl="Y">
+  <value column="Name" original="Web Access">Web Access</value>
+  <value column="Description" original="Maintain Web Access">Maintain Web Access</value>
+ </row>
+ <row id="588" trl="Y">
+  <value column="Name" original="Web Broadcast Server">Web Broadcast Server</value>
+  <value column="Description" original="Maintain Web Broadcast Server">Maintain Web Broadcast Server</value>
+ </row>
+ <row id="589" trl="Y">
+  <value column="Name" original="Info Window">ข้อมูลหน้าจอ</value>
+  <value column="Description" original="Define Info and search/select Window">Define Info and search/select Window</value>
+ </row>
+ <row id="590" trl="Y">
+  <value column="Name" original="Text Index">Text Index</value>
+  <value column="Description" original="Maintain Text Search Index">Maintain Text Search Index</value>
+ </row>
+ <row id="591" trl="Y">
+  <value column="Name" original="Text Index Stop">Text Index Stop</value>
+  <value column="Description" original="Maintain keywords not to be indexed">Maintain keywords not to be indexed</value>
+ </row>
+ <row id="592" trl="Y">
+  <value column="Name" original="Text Search Log">Text Search Log</value>
+  <value column="Description" original="View Text Search Log">View Text Search Log</value>
+ </row>
+ <row id="593" trl="Y">
+  <value column="Name" original="Rebuild Index">Rebuild Index</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="594" trl="Y">
+  <value column="Name" original="LDAP Server">LDAP Server</value>
+  <value column="Description" original="LDAP Server to authenticate and authorize external systems based on Adempiere">LDAP Server to authenticate and authorize external systems based on Adempiere</value>
+ </row>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Application Packaging">Application Packaging</value>
+  <value column="Description" original="Import and export packaging">Import and export packaging</value>
+ </row>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Packages Installed">Packages Installed</value>
+  <value column="Description" original="List of packages installed">List of packages installed</value>
+ </row>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Package Maintenance">Package Maintenance</value>
+  <value column="Description" original="Package installation history and maintenance">Package installation history and maintenance</value>
+ </row>
+ <row id="50004" trl="Y">
+  <value column="Name" original="PackOut - Create a package">PackOut - Create a package</value>
+  <value column="Description" original="Package build Application">Package build Application</value>
+ </row>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Common Package Details">Common Package Details</value>
+  <value column="Description" original="Maintain Common Package Details">Maintain Common Package Details</value>
+ </row>
+ <row id="50006" trl="Y">
+  <value column="Name" original="PackIn - Import a package">PackIn - Import a package</value>
+  <value column="Description" original="Imports a package">Imports a package</value>
+ </row>
+ <row id="50007" trl="Y">
+  <value column="Name" original="CopyRole">คัดลอกบทบาท</value>
+  <value column="Description" original="Copy Role">คัดลอกบทบาท</value>
+ </row>
+ <row id="50008" trl="Y">
+  <value column="Name" original="System Configurator">การคอนฟิกระบบ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Request EMail Processor">Request EMail Processor</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Dashboard Content Edit">Dashboard Content Edit</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="52000" trl="Y">
+  <value column="Name" original="Update Role Menu">อัพเดทเมนูบทบาท</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="52001" trl="Y">
+  <value column="Name" original="Web POS">โพสเตอริต้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="52002" trl="Y">
+  <value column="Name" original="Web POS Menu">เมนูเว็บ</value>
+  <value column="Description" original="To dynamically generate the menu links in web POS">To dynamically generate the menu links in posterita</value>
+ </row>
+ <row id="52003" trl="Y">
+  <value column="Name" original="Web POS Role Menu">เมนูบทบาท</value>
+  <value column="Description" original="Depending on Which Role, Different set of Menus are generated and made available.">Depending on Which Role, Different set of Menus are generated and made available.</value>
+ </row>
+ <row id="52004" trl="Y">
+  <value column="Name" original="Web POS Properties">คุณสมบัติเว็บ</value>
+  <value column="Description" original="Stores the message tags to be picked up from AD_MESSAGE ">Stores the message tags to be picked up from AD_MESSAGE </value>
+ </row>
+ <row id="52005" trl="Y">
+  <value column="Name" original="Web POS BlackListCheque">บัญชีดำเช็ค</value>
+  <value column="Description" original="Black Listed Cheque">บัญชีดำเช็ค</value>
+ </row>
+ <row id="53012" trl="Y">
+  <value column="Name" original="Model Validator">Model Validator</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Manufacturing Management">การบริหารระบบโรงงานอุตสาหกรรม</value>
+  <value column="Description" original="Manufacturing">ระบบโรงงานอุตสาหกรรม</value>
+ </row>
+ <row id="53015" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">การกำหนดค่าระบบโรงงานอุตสาหกรรม</value>
+  <value column="Description" original="Setup Manufacturing Management">การกำหนดค่าการบริหารระบบโรงงานอุตสาหกรรม</value>
+ </row>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Engineering Management">การจัดการทางวิศวกรรม (Engineering management)</value>
+  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">การจัดการทางวิศวกรรม จะเกี่ยวข้องกับการบริหารหน่วยงานทั้งหมดในโรงงานอุตสาหกรรม ทั้งฝ่ายโรงงาน ฝ่ายวิศวกรรม ฝ่ายเทคโนโลยี่ และฝ่ายผลิต</value>
+ </row>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Resource Manufacturing">ทรัพยากรในโรงงานอุตสาหกรรม</value>
+  <value column="Description" original="Resource Manufacturing">ทรัพยากรในโรงงานอุตสาหกรรม </value>
+ </row>
+ <row id="53018" trl="Y">
+  <value column="Name" original="Manufacturing Resource">ทรัพยากรในโรงงานอุตสาหกรรม (Manufacturing Resource)</value>
+  <value column="Description" original="Manufacturing Resource">ทรัพยากรในโรงงานอุตสาหกรรม</value>
+ </row>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Manufacturing Workflow">โฟลการทำงานของงานอุตสาหกรรม</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53020" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">การกำหนดโฟลการทำงานของงานอุตสาหกรรม</value>
+  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">การกำหนดโฟลการทำงานของงานอุตสาหกรรม (Routing)</value>
+ </row>
+ <row id="53021" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">โฟลการกำหนดทำงานของงานโรงงานอุตสาหกรรม</value>
+  <value column="Description" original="Setup Manufacturing Workflow">โฟลการกำหนดทำงานของงานโรงงานอุตสาหกรรม</value>
+ </row>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formulas">ใบแสดงรายการวัตถุดิบ &amp; สูตรการผลิต</value>
+  <value column="Description" original="Bill of Material &amp; Formulas">ใบแสดงรายการวัตถุดิบ &amp; สูตรการผลิต (Bill of Material &amp; Formulas)</value>
+ </row>
+ <row id="53023" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Setup">การตั้งค่าใบแสดงรายการวัตถุดิบ &amp; สูตรการผลิต (Setup)</value>
+  <value column="Description" original="Setup Bill of Material &amp; Formula">การตั้งค่าใบแสดงรายการวัตถุดิบ &amp; สูตรการผลิต</value>
+ </row>
+ <row id="53024" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula ">ใบแสดงรายการวัตถุดิบ &amp; สูตรการผลิต</value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula ">การจัดการใบแสดงรายการวัตถุดิบ &amp; สูตรการผลิต</value>
+ </row>
+ <row id="53025" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info">ข้อมูลใบรายการวัตถุดิบและสูตรการผลิต (BOM &amp; Formula)</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">แสดงรายการความสัมพันธ์ของสินค้าและวัตถุดิบที่ใช้ในการผลิตเป็นลำดับชั้น</value>
+ </row>
+ <row id="53026" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail">Multi Level BOM &amp; Formula Detail</value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
+ </row>
+ <row id="53027" trl="Y">
+  <value column="Name" original="Mutiple Components Change">Mutiple Components Change</value>
+  <value column="Description" original="This option allows the change of any component into BOM or Formula">This option allows the change of any component into BOM or Formula</value>
+ </row>
+ <row id="53028" trl="Y">
+  <value column="Name" original="Product Configuration BOM">Product Configuration BOM</value>
+  <value column="Description" original="This form let create a product configure with multy level using options and variants">This form let create a product configure with multy level using options and variants</value>
+ </row>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Planning Management">ระบบการวางแผนการผลิต (Production Planing)</value>
+  <value column="Description" original="Using Planning Management you answer the question: When and How Many products we must get?">การใช้งานระบบนี้จะเป็นการตอบคำถามที่ว่า เราจะผลิตได้สินค้าเท่าไรและเมื่อไร?</value>
+ </row>
+ <row id="53030" trl="Y">
+  <value column="Name" original="Planning Management Setup">Planning Management Setup</value>
+  <value column="Description" original="Setup Planning Management">Setup Planning Management</value>
+ </row>
+ <row id="53031" trl="Y">
+  <value column="Name" original="Product Data Planning">การวางแผนข้อมูลสินค้า</value>
+  <value column="Description" original="Product Data Planning">การวางแผนข้อมูลสินค้า</value>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Product Planning">การวางแผนสินค้า</value>
+  <value column="Description" original="Maintain Product Planning">การวางแผนสินค้า</value>
+ </row>
+ <row id="53033" trl="Y">
+  <value column="Name" original="Create Product Planning">สร้างการวางแผนสินค้า</value>
+  <value column="Description" original="This process will create the data plannig register for every product">กระบวนการนี้จะสร้างข้อมูลการวางแผนสินค้า ให้สำหรับสินค้าทุกตัว</value>
+ </row>
+ <row id="53034" trl="Y">
+  <value column="Name" original="MRP">MRP</value>
+  <value column="Description" original="Materials Requirements Planning">Materials Requirements Planning</value>
+ </row>
+ <row id="53035" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Material Requirement Planning Setup</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ </row>
+ <row id="53036" trl="Y">
+  <value column="Name" original="Calculate Low Level">การคำนวณระดับย่อย (Calulate Low Level)</value>
+  <value column="Description" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">กระบวนการคำนวณและกำหนดวัตถุดิบที่ใช้ในการผลิตระดับย่อยสุดในการผลิตสินค้าสำหรับแต่ละใบรายการผลิต (BOM). ใช้ในการคำนวณ MRP และใช้ประมวลผลเมื่อมีการสร้าง BOM ใหม่</value>
+ </row>
+ <row id="53037" trl="Y">
+  <value column="Name" original="Create Record MRP">สร้างข้อมูล MRP</value>
+  <value column="Description" original="This process recreate the demand, approved and open orders for a product.">This process recreate the demand, approved and open orders for a product.</value>
+ </row>
+ <row id="53038" trl="Y">
+  <value column="Name" original="Calculate Material Plan">คำนวณแผนวัตถุดิบ</value>
+  <value column="Description" original="This process calcualte the demand, approved and open orders for a product.">คำนวณแผนวัตถุดิบ เป็นกระบวนการสำหรับคำนวณความต้องการ, การอนุมัติ และการเปิดใบสั่งวัตถุดิบสำหรับการผลิตสินค้า</value>
+ </row>
+ <row id="53039" trl="Y">
+  <value column="Name" original="MRP Info">ข้อมูล MRP</value>
+  <value column="Description" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+ </row>
+ <row id="53040" trl="Y">
+  <value column="Name" original="MRP Notice">หมายเหตุ MRP</value>
+  <value column="Description" original="View System Notices">View System Notices</value>
+ </row>
+ <row id="53041" trl="Y">
+  <value column="Name" original="MRP Details">รายละเอียด MRP</value>
+  <value column="Description" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+ </row>
+ <row id="53042" trl="Y">
+  <value column="Name" original="Planned Order Approval ">Planned Order Approval </value>
+  <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.</value>
+ </row>
+ <row id="53043" trl="Y">
+  <value column="Name" original="CRP">CRP</value>
+  <value column="Description" original="Capacity Requirements Planning">Capacity Requirements Planning</value>
+ </row>
+ <row id="53044" trl="N">
+  <value column="Name" original="CRP Info">ดูการใช้ทรัพยากรรายวัน</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.nfo">แสดงผลเป็นกราฟของความต้องการการใช้ทรัพยากรของโรงงานแต่ละตัว เป็นช่วงเวลาที่ต้องการใช้ทรัพยากร และช่วงเวลาที่ทรัพยากรนั้นว่าง</value>
+ </row>
+ <row id="53045" trl="Y">
+  <value column="Name" original="Calculate Capacity Plan">คำนวณแผนการใช้กำลังการผลิต</value>
+  <value column="Description" original="Calculate Capacity Plan">คำนวณแผนการใช้กำลังการผลิต</value>
+ </row>
+ <row id="53046" trl="Y">
+  <value column="Name" original="Resource Load View">ดูการใช้ทรัพยากร</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">แสดงผลเป็นกราฟของความต้องการการใช้ทรัพยากรของโรงงานแต่ละตัว</value>
+ </row>
+ <row id="53047" trl="Y">
+  <value column="Name" original="Capacity Requirement Planning Setup">การตั้งค่าการวางแผลความต้องการกำลังการผลิต (CRP Setup)</value>
+  <value column="Description" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">กระบวนการนี้จะทำให้เราทราบว่าเราต้องการทรัพยากรใดเมื่อใดในการผลิตที่จะเหมาะสมที่สุดเพื่อให้เป็นไปตามแผนการผลิตหลัก</value>
+ </row>
+ <row id="53048" trl="Y">
+  <value column="Name" original="DRP">DRP</value>
+  <value column="Description" original="Distribution Resource Planning">Distribution Resource Planning</value>
+ </row>
+ <row id="53049" trl="Y">
+  <value column="Name" original="Calculate Distribution Plan">คำนวณแผนการกระจายสินค้า</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">การทำแผนการกระจายสินค้า (Distribution Resource Planning (DRP)) เป็นวิธีการที่ทำให้สามารถจัดการ Orders ให้กับระบบห่วงโซ่อุปทาน</value>
+ </row>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Distribution Resource Planning Setup">Distribution Resource Planning Setup</value>
+  <value column="Description" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.</value>
+ </row>
+ <row id="53051" trl="Y">
+  <value column="Name" original="DRP Details">DRP Details</value>
+  <value column="Description" original="Show the detail of DRP calculation">Show the detail of DRP calculation</value>
+ </row>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Production Management">การบริหารการผลิต (Production Management)</value>
+  <value column="Description" original="Production Management">การบริหารการผลิต</value>
+ </row>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Discreet Manufacturing">การผลิตแบบไม่ต่อเนื่อง (Discrete Manufacturing)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">การกำหนดค่าสำหรับการผลิตแบบไม่ต่อเนื่อง</value>
+  <value column="Description" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.">เมื่อกระบวนการหนึ่งในการผลิตสมบูรณ์ กระบวนการควบคุมการผลิตจะทำการตรวจสอบและทำให้เราทราบว่าในการทำงานของแต่และกิจกรรมในใบสั่งงานเป็นไปตามแผนการใช้วัตถุดิบ</value>
+ </row>
+ <row id="53055" trl="Y">
+  <value column="Name" original="Manufacturing Order">ใบสั่งผลิต</value>
+  <value column="Description" original="Maintain Manufacturing Order">การจัดการใบสั่งผลิต สำหรับโรงงานอุตสาหกรรม</value>
+ </row>
+ <row id="53056" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review  ">รายงานใบสั่งผลิต</value>
+  <value column="Description" original="It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.">รายงานใบสั่งผลิต จะแสดงข้อมูลใบสั่งผลิตตามที่ผู้เรียกรายงานสนใจโดยสามารถฟิวเตอร์ข้อมูลได้ตามต้องการ</value>
+ </row>
+ <row id="53057" trl="Y">
+  <value column="Name" original="Component Check">Component Check</value>
+  <value column="Description" original="Show if  components are available in the warehouse to Manufacturing Order">Show if  components are available in the warehouse to Manufacturing Order</value>
+ </row>
+ <row id="53058" trl="Y">
+  <value column="Name" original="Print &amp; Release Order">Print &amp; Release Order</value>
+  <value column="Description" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.">Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.</value>
+ </row>
+ <row id="53059" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue">Order Receipt &amp; Issue</value>
+  <value column="Description" original="Order Receipt &amp; Issue">Order Receipt &amp; Issue</value>
+ </row>
+ <row id="53060" trl="Y">
+  <value column="Name" original="Inventory in Process">Inventory in Process</value>
+  <value column="Description" original="This report show the inventory in process">This report show the inventory in process</value>
+ </row>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Management Maintenance">การจัดการการบำรุงรักษา</value>
+  <value column="Description" original="Management Maintenance">การจัดการการบำรุงรักษา</value>
+ </row>
+ <row id="53062" trl="Y">
+  <value column="Name" original="Spare parts">ชิ้นส่วนสำรอง (Spare Parts)</value>
+  <value column="Description" original="Spare parts">ชิ้นส่วนสำรอง (Spare Parts)</value>
+ </row>
+ <row id="53063" trl="Y">
+  <value column="Name" original="Shop Floor Control">การควบคุมพื้นที่ของแผนก (Shop Floor Control)</value>
+  <value column="Description" original="Shop Floor Control">การควบคุมพื้นที่ของแผนก (Shop Floor Control)</value>
+ </row>
+ <row id="53064" trl="Y">
+  <value column="Name" original="Activity Control Report">รายงานการควบคุมกิจกรรม</value>
+  <value column="Description" original="Activity Control">การควบคุมกิจกรรม</value>
+ </row>
+ <row id="53065" trl="Y">
+  <value column="Name" original="Shop Floor Transaction Details">Shop Floor Transaction Details</value>
+  <value column="Description" original="Show the Shop Floor Transaction Details">Show the Shop Floor Transaction Details</value>
+ </row>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Distribution Management">การบริหารการกระจายสินค้า (Distribution Management)</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">การวางแผนการกระจายสินค้า (Distribution Resource Planning (DRP)) เป็นวิธีการที่ทำให้สามารถจัดการ Orders ให้กับระบบห่วงโซ่อุปทาน</value>
+ </row>
+ <row id="53067" trl="Y">
+  <value column="Name" original="Distribution Management Setup">Distribution Management Setup</value>
+  <value column="Description" original="Distribution Management Setup">Distribution Management Setup</value>
+ </row>
+ <row id="53068" trl="N">
+  <value column="Name" original="Distribution Order">Distribution Order </value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
+ </row>
+ <row id="53069" trl="Y">
+  <value column="Name" original="Generate Movement Manual">Generate Movement Manual</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Generate Movement to a Order Distribution</value>
+ </row>
+ <row id="53070" trl="Y">
+  <value column="Name" original="Generate Movement">สร้างการจัดส่งสินค้า</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Generate and print Movement from open Distribution Orders</value>
+ </row>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Quality Management">การบริหารคุณภาพ (Quality Management)</value>
+  <value column="Description" original="Quality Management">การบริหารคุณภาพ</value>
+ </row>
+ <row id="53072" trl="Y">
+  <value column="Name" original="Quality Specifications">Quality Specifications</value>
+  <value column="Description" original="Maintain Quality Specifications">Maintain Quality Specifications</value>
+ </row>
+ <row id="53073" trl="Y">
+  <value column="Name" original="Print Test Results">Print Test Results</value>
+  <value column="Description" original="Process allow print the result of Quality Order">Process allow print the result of Quality Order</value>
+ </row>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Standard Costing Management">การจัดการต้นทุนมาตรฐาน (Standard Costing Management)</value>
+  <value column="Description" original="Standard Costing Management">การจัดการต้นทุนมาตรฐาน (Standard Costing Management)</value>
+ </row>
+ <row id="53075" trl="Y">
+  <value column="Name" original="Create Doc Type to Manufacturing">สร้างประเภทเอกสารสำหรับโรงงานอุตสาหกรรม</value>
+  <value column="Description" original="Let create the document type to manufacturing">สร้างประเภทเอกสารสำหรับโรงงานอุตสาหกรรม</value>
+ </row>
+ <row id="53076" trl="Y">
+  <value column="Name" original="Create Element">สร้างอิลิเม้นท์</value>
+  <value column="Description" original="Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.">Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.</value>
+ </row>
+ <row id="53077" trl="Y">
+  <value column="Name" original="Product Costing">ต้นทุนสินค้า</value>
+  <value column="Description" original="To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type">To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type</value>
+ </row>
+ <row id="53078" trl="Y">
+  <value column="Name" original="Copy Price to Standard Cost">การคัดลอกราคาไปยังต้นทุนมาตรฐาน</value>
+  <value column="Description" original="This process allow copy a Price from Price list Version to Element Cost">This process allow copy a Price from Price list Version to Element Cost</value>
+ </row>
+ <row id="53079" trl="Y">
+  <value column="Name" original="Workflow Cost Roll-Up">Workflow Cost Roll-Up</value>
+  <value column="Description" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow ">This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow </value>
+ </row>
+ <row id="53080" trl="Y">
+  <value column="Name" original="Cost Workflow &amp; Process Details">Cost Workflow &amp; Process Details</value>
+  <value column="Description" original="This report show every cost element to a BOM or Formula ">This report show every cost element to a BOM or Formula </value>
+ </row>
+ <row id="53081" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP">ใบแสดงรายการวัตถุดิบ &amp; สูตรการผลิต (Cost Roll-UP)</value>
+  <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost">กระบวนการนี้จะรวมไปถึงการคำนวนต้นทุนการผลิตจากใบแสดงรายการวัตถุดิบ และสูตรการผลิต (Bill of Material &amp; Formula Cost)</value>
+ </row>
+ <row id="53082" trl="Y">
+  <value column="Name" original="Cost Collector">Cost Collector</value>
+  <value column="Description" original="The cost collector is a repository of all the MO transactions.">The cost collector is a repository of all the MO transactions.</value>
+ </row>
+ <row id="53086" trl="Y">
+  <value column="Name" original="Rule">Rule</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53088" trl="Y">
+  <value column="Name" original="Distribution Network">Distribution Network</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53089" trl="Y">
+  <value column="Name" original="Migration Scripts">Migration Scripts</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53090" trl="Y">
+  <value column="Name" original="Prepare Migration Scripts">Prepare Migration Scripts</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Replication Data">Replication Data</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53099" trl="Y">
+  <value column="Name" original="Setup Replication">Setup Replication</value>
+  <value column="Description" original="Setup of data replication">Setup of data replication</value>
+ </row>
+ <row id="53100" trl="Y">
+  <value column="Name" original="Export Format">รูปแบบการส่งออก</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53101" trl="Y">
+  <value column="Name" original="Export Processor">กระบวนการส่งออก</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53102" trl="Y">
+  <value column="Name" original="Export Processor Type">ประเภทกระบวนการส่งออก</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53103" trl="Y">
+  <value column="Name" original="Import Processor">Import Processor</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53104" trl="Y">
+  <value column="Name" original="Import Processor Type">Import Processor Type</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53105" trl="N">
+  <value column="Name" original="Credit Card Management">การจัดการบัตรเครดิต</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53106" trl="Y">
+  <value column="Name" original="Bank Identification Number">รหัสธนาคาร</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53107" trl="Y">
+  <value column="Name" original="Credit Card Payment Terms">เงื่อนไขการชำระเงินของบัตรเครดิต</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53108" trl="Y">
+  <value column="Name" original="Human Resource &amp; Payroll">ระบบทรัพยากรบุคคล &amp; เงินเดือน</value>
+  <value column="Description" original="Human Resource &amp; Payroll">ระบบทรัพยากรบุคคล &amp; เงินเดือน</value>
+ </row>
+ <row id="53109" trl="Y">
+  <value column="Name" original="Human Resource">ระบบทรัพยากรบุคคล</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53110" trl="Y">
+  <value column="Name" original="Payroll Contract">สัญญาเงินเดือน</value>
+  <value column="Description" original="Maintain Payroll Contract">การจัดการสัญญาจ้าง</value>
+ </row>
+ <row id="53111" trl="Y">
+  <value column="Name" original="Payroll Employee">เงินเดือนพนักงาน</value>
+  <value column="Description" original="Maintain Payroll Employee">การจัดการระบบเงินเดือน</value>
+ </row>
+ <row id="53112" trl="Y">
+  <value column="Name" original="Payroll Department">แผนกเงินเดือน</value>
+  <value column="Description" original="Maintain Payroll Department">แผนกเงินเดือน</value>
+ </row>
+ <row id="53113" trl="Y">
+  <value column="Name" original="Payroll Job">ค่าจ้าง</value>
+  <value column="Description" original="Maintain Payroll Job">การจัดการระบบค่าจ้าง</value>
+ </row>
+ <row id="53114" trl="Y">
+  <value column="Name" original="Payroll">เงินเดือน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53115" trl="Y">
+  <value column="Name" original="Payroll Concept Catalog">Payroll Concept Catalog</value>
+  <value column="Description" original="Maintain Payroll Concept Catalog">Maintain Payroll Concept Catalog</value>
+ </row>
+ <row id="53116" trl="N">
+  <value column="Name" original="Payroll Process">Payroll Processing</value>
+  <value column="Description" original="Payroll Process">Payroll Processing</value>
+ </row>
+ <row id="53117" trl="Y">
+  <value column="Name" original="Payroll Definition">นิยามของระบบเงินเดือน</value>
+  <value column="Description" original="In a company, payroll is the sum of all financial records of salaries, wages, bonuses, and deductions.">ในบริษัท, ระบบเงินเดือนเป็นผลรวมของข้อมูลทางการเงินของเงินเดือน ค่าจ้าง โบนัส และรายหัก</value>
+ </row>
+ <row id="53118" trl="Y">
+  <value column="Name" original="Payroll Concept Category">Payroll Concept Category</value>
+  <value column="Description" original="Maintain Payroll Concept Category">Maintain Payroll Concept Category</value>
+ </row>
+ <row id="53119" trl="Y">
+  <value column="Name" original="Payroll Table Type">ประเภทตารางเงินเดือน</value>
+  <value column="Description" original="Maintain Payroll Table Type">Maintain Payroll Table Type</value>
+ </row>
+ <row id="53120" trl="Y">
+  <value column="Name" original="Payroll Table">ตารางเงินเดือน</value>
+  <value column="Description" original="Maintain Payroll Table">Maintain Payroll Table</value>
+ </row>
+ <row id="53121" trl="Y">
+  <value column="Name" original="Payroll Movement">ประวัติการจ่ายเงินเดือน</value>
+  <value column="Description" original="History of Payroll Movement">History of Payroll Movement</value>
+ </row>
+ <row id="53122" trl="Y">
+  <value column="Name" original="Payroll Send EMail">Payroll Send EMail</value>
+  <value column="Description" original="This process is use to send the Payroll for each Employee via EMail">This process is use to send the Payroll for each Employee via EMail</value>
+ </row>
+ <row id="53123" trl="Y">
+  <value column="Name" original="Payroll Action Notice">Payroll Action Notice</value>
+  <value column="Description" original="Payroll Action Notice let entry the events that happend with any Employee">Payroll Action Notice let entry the events that happend with any Employee</value>
+ </row>
+ <row id="53124" trl="Y">
+  <value column="Name" original="Setup Human Resource &amp; Payroll">การตั้งค่าระบบทรัพยากรบุคคล &amp; เงินเดือน</value>
+  <value column="Description" original="Setup Human Resource &amp; Payroll">การตั้งค่าระบบทรัพยากรบุคคล &amp; เงินเดือน</value>
+ </row>
+ <row id="53125" trl="N">
+  <value column="Name" original="Export Format Generator">สร้างรูปแบบการส่งออกจากหน้าจอ</value>
+  <value column="Description" original="Create multiple Export Format based in a Window"></value>
+ </row>
+ <row id="53127" trl="N">
+  <value column="Name" original="Payroll Process">Payroll Process</value>
+  <value column="Description" original="The Payroll Processing is used to processing a Payroll, you can calculate for a Employee or All Employees">The Payroll Processing is used to processing a Payroll, you can calculate for a Employee or All Employees</value>
+ </row>
+ <row id="53128" trl="N">
+  <value column="Name" original="Manufacturing Workflow Editor">Manufacturing Workflow Editor</value>
+  <value column="Description" original="Edit Workflows">Edit Workflows</value>
+ </row>
+ <row id="53130" trl="N">
+  <value column="Name" original="Export Record">Export Record</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53131" trl="N">
+  <value column="Name" original="Import Record">Import Record</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="53132" trl="N">
+  <value column="Name" original="Generate Shipments &amp; Invoices (manual)">Generate Shipments &amp; Invoices (manual)</value>
+  <value column="Description" original="Select and generate shipments &amp; Invoices">Select and generate shipments &amp; Invoices</value>
+ </row>
+ <row id="1000000" trl="Y">
+  <value column="Name" original="Employee">พนักงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000001" trl="Y">
+  <value column="Name" original="Vendor">ผู้จำหน่าย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000002" trl="Y">
+  <value column="Name" original="Customer">ลูกค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000003" trl="Y">
+  <value column="Name" original="Financial Setup">กำหนดข้อมูลทางการเงิน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000004" trl="Y">
+  <value column="Name" original="Chart of Account Report">รายงานผังบัญชี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000005" trl="Y">
+  <value column="Name" original="Reports">รายงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000006" trl="Y">
+  <value column="Name" original="Products Report">รายงานสินค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000007" trl="Y">
+  <value column="Name" original="Sale Tax Report">รายงานภาษีขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000008" trl="Y">
+  <value column="Name" original="Purchase Tax Report">รายงานภาษีซื้อ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000009" trl="Y">
+  <value column="Name" original="Receipt">การรับชำระเงิน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000010" trl="Y">
+  <value column="Name" original="Bank Account">บัญชีธนาคาร</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000011" trl="Y">
+  <value column="Name" original="Quotation">ใบเสนอราคา</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000012" trl="Y">
+  <value column="Name" original="Withholding Tax">หนังสือรับรองหัก ณ ที่จ่าย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000013" trl="Y">
+  <value column="Name" original="GMS Contract">สัญญา (GMS)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000014" trl="Y">
+  <value column="Name" original="Rpt Purchase Report">รายงานการสั่งซื้อสินค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000015" trl="Y">
+  <value column="Name" original="Service Charge">อัตราค่าบริการ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000017" trl="Y">
+  <value column="Name" original="View Allocation (Payment)">ดูการลงบัญชี (ด้านจ่าย)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000018" trl="Y">
+  <value column="Name" original="Rpt Test Report">ทดสอบรายงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000019" trl="Y">
+  <value column="Name" original="Vendor Address">ที่อยู่ผู้จำหน่าย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000020" trl="Y">
+  <value column="Name" original="Financial Rule">การกำหนดค่าทางการเงิน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000021" trl="Y">
+  <value column="Name" original="Customer Service">การบริการลูกค้า</value>
+  <value column="Description" original="Customer Related Assets">Customer Related Assets</value>
+ </row>
+ <row id="1000022" trl="Y">
+  <value column="Name" original="Fixed Assets">สินทรัพย์ถาวร</value>
+  <value column="Description" original="Applications to setup and maintain fixed assets">Applications to setup and maintain fixed assets</value>
+ </row>
+ <row id="1000023" trl="Y">
+  <value column="Name" original="Processing">การประมวลผล</value>
+  <value column="Description" original="Process Fixed Assets">การประมวลผลสินทรัพย์ถาวร</value>
+ </row>
+ <row id="1000024" trl="Y">
+  <value column="Name" original="Asset Revaluation">Asset Revaluation</value>
+  <value column="Description" original="Process Asset Revaluations">Process Asset Revaluations</value>
+ </row>
+ <row id="1000025" trl="Y">
+  <value column="Name" original="Asset Revaluation Processing">Asset Revaluation Processing</value>
+  <value column="Description" original="Process Revaluation of Assets">Process Revaluation of Assets</value>
+ </row>
+ <row id="1000026" trl="Y">
+  <value column="Name" original="Asset Revaluation Index">Asset Revaluation Index</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">Set the Revaluate Assets Index or Factors</value>
+ </row>
+ <row id="1000027" trl="Y">
+  <value column="Name" original="Splits Transfers and Disposals">Splits Transfers and Disposals</value>
+  <value column="Description" original="Process Assets Splits Transfers and Disposals">Process Assets Splits Transfers and Disposals</value>
+ </row>
+ <row id="1000028" trl="Y">
+  <value column="Name" original="Transfer Asset Entry">Transfer Asset Entry</value>
+  <value column="Description" original="Create Transfer Asset Entry">Create Transfer Asset Entry</value>
+ </row>
+ <row id="1000029" trl="Y">
+  <value column="Name" original="Disposed Asset Entry">Disposed Asset Entry</value>
+  <value column="Description" original="Create Disposed Asset Entry">Create Disposed Asset Entry</value>
+ </row>
+ <row id="1000030" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt">Asset Disposal Expense Entry Rpt</value>
+  <value column="Description" original="Used to review Assets Disposed Entry">Used to review Assets Disposed Entry</value>
+ </row>
+ <row id="1000031" trl="Y">
+  <value column="Name" original="Asset Transfer Entry">รายการโอนสินทรัพย์ที่เกิดขึ้น</value>
+  <value column="Description" original="Used to review Assets Transfered Entry ">Used to review Assets Transfered Entry </value>
+ </row>
+ <row id="1000032" trl="Y">
+  <value column="Name" original="Asset Split">การแบ่งแยกสินทรัพย์</value>
+  <value column="Description" original="Split Assets Process">Split Assets Process</value>
+ </row>
+ <row id="1000033" trl="Y">
+  <value column="Name" original="Asset Disposal">การกำจัดทิ้งสินทรัพย์</value>
+  <value column="Description" original="Dispose of Assets">การกำจัดทิ้งสินทรัพย์</value>
+ </row>
+ <row id="1000034" trl="Y">
+  <value column="Name" original="Asset Transfers">การโอนสินทรัพย์</value>
+  <value column="Description" original="Process transfers of assets">Process transfers of assets</value>
+ </row>
+ <row id="1000035" trl="Y">
+  <value column="Name" original="Split Asset Entry">Split Asset Entry</value>
+  <value column="Description" original="Create Split Asset Entries">Create Split Asset Entries</value>
+ </row>
+ <row id="1000036" trl="Y">
+  <value column="Name" original="Asset Split Entry">รายการแบ่งแยกสินทรัพย์ที่เกิดขึ้น</value>
+  <value column="Description" original="Used to review Assets Split Entry ">Used to review Assets Split Entry </value>
+ </row>
+ <row id="1000037" trl="Y">
+  <value column="Name" original="Depreciation Processing">Depreciation Processing</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">Applications to Process Fixed Assets to the GL</value>
+ </row>
+ <row id="1000038" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry">Depreciation Expense Entry</value>
+  <value column="Description" original="Used to review Depreciation Expense Entry not yet booked">Used to review Depreciation Expense Entry not yet booked</value>
+ </row>
+ <row id="1000039" trl="Y">
+  <value column="Name" original="Build Depreciation Workfile">Build Depreciation Workfile</value>
+  <value column="Description" original="Build Depreciation Expense File">Build Depreciation Expense File</value>
+ </row>
+ <row id="1000040" trl="Y">
+  <value column="Name" original="Post Depreciation Entry">Post Depreciation Entry</value>
+  <value column="Description" original="Create Depreciation Entry">Create Depreciation Entry</value>
+ </row>
+ <row id="1000041" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast">Asset Depreciation Forecast</value>
+  <value column="Description" original="Used to review Assets Forecast">Used to review Assets Forecast</value>
+ </row>
+ <row id="1000042" trl="Y">
+  <value column="Name" original="Build Depreciation Forecast">สร้างประมาณการค่าเสื่อมราคา</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000043" trl="Y">
+  <value column="Name" original="Reporting">รายงานระบบสินทรัพย์</value>
+  <value column="Description" original="Reporting for fixed assets">รายงานสำหรับระบบสินทรัพย์ถาวร</value>
+ </row>
+ <row id="1000044" trl="Y">
+  <value column="Name" original="RV_Asset_Parent_Report">RV_Asset_Parent_Report</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000045" trl="Y">
+  <value column="Name" original="RV_Depreciation_Table">RV_Depreciation_Table</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000046" trl="Y">
+  <value column="Name" original="Spread Report">Spread Report</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000047" trl="Y">
+  <value column="Name" original="RV_Asset_Depreciation_Method">RV_Asset_Depreciation_Method</value>
+  <value column="Description" original="List Depreciation Methods">List Depreciation Methods</value>
+ </row>
+ <row id="1000048" trl="Y">
+  <value column="Name" original="RV_Asset_Convention_Rpt">RV_Asset_Convention_Rpt</value>
+  <value column="Description" original="Asset Convention Report">Asset Convention Report</value>
+ </row>
+ <row id="1000049" trl="Y">
+  <value column="Name" original="RV_Depreciation_Calculation_Methods">RV_Depreciation_Calculation_Methods</value>
+  <value column="Description" original="List Depreciation Calculation Methods Available">List Depreciation Calculation Methods Available</value>
+ </row>
+ <row id="1000050" trl="Y">
+  <value column="Name" original="RV_Asset_Group_Defaults">RV_Asset_Group_Defaults</value>
+  <value column="Description" original="Lists Asset Group Settings &amp; Defaults">Lists Asset Group Settings &amp; Defaults</value>
+ </row>
+ <row id="1000051" trl="Y">
+  <value column="Name" original="Setup and Maintain">Setup and Maintain</value>
+  <value column="Description" original="Setup and maintain assets">Setup and maintain assets</value>
+ </row>
+ <row id="1000052" trl="Y">
+  <value column="Name" original="Fixed Assets Setup">การตั้งค่าสินทรัพย์ถาวร</value>
+  <value column="Description" original="Setup and Maintain Fixed Assets">Setup and Maintain Fixed Assets</value>
+ </row>
+ <row id="1000053" trl="Y">
+  <value column="Name" original="Inbound Charges for GL">Inbound Charges for GL</value>
+  <value column="Description" original="Process invoice charges from GL">Process invoice charges from GL</value>
+ </row>
+ <row id="1000054" trl="Y">
+  <value column="Name" original="Inbound Asset Entry">Inbound Asset Entry</value>
+  <value column="Description" original="Create Inbound Asset Entry">Create Inbound Asset Entry</value>
+ </row>
+ <row id="1000055" trl="Y">
+  <value column="Name" original="Inbound Charge Entry Report">Inbound Charge Entry Report</value>
+  <value column="Description" original="Used to review Assets Inbound Entry ">Used to review Assets Inbound Entry </value>
+ </row>
+ <row id="1000056" trl="Y">
+  <value column="Name" original="Inbound Charges for AP">Inbound Charges for AP</value>
+  <value column="Description" original="Process invoice charges from AP">Process invoice charges from AP</value>
+ </row>
+ <row id="1000057" trl="Y">
+  <value column="Name" original="Import File Loader">ตัวอ่านไฟล์นำเข้า</value>
+  <value column="Description" original="Load flat Files into import tables">อ่าน flat Files เข้าไปใน ตารางนำเข้า</value>
+ </row>
+ <row id="1000058" trl="Y">
+  <value column="Name" original="Post Imported Assets">Post Imported Assets</value>
+  <value column="Description" original="Import Fixed Assets">Import Fixed Assets</value>
+ </row>
+ <row id="1000059" trl="Y">
+  <value column="Name" original="Depreciation Setup">Depreciation Setup</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">Applications to setup and maintain depreciation</value>
+ </row>
+ <row id="1000060" trl="Y">
+  <value column="Name" original="Depreciation Period Spread Type">Depreciation Period Spread Type</value>
+  <value column="Description" original="Period Spread Type">Period Spread Type</value>
+ </row>
+ <row id="1000061" trl="Y">
+  <value column="Name" original="Depreciation Methods">Depreciation Methods</value>
+  <value column="Description" original="Depreciation Methods">Depreciation Methods</value>
+ </row>
+ <row id="1000062" trl="Y">
+  <value column="Name" original="Depreciation Tables">Depreciation Tables</value>
+  <value column="Description" original="Allows users to create multiple depreciation schedules">Allows users to create multiple depreciation schedules</value>
+ </row>
+ <row id="1000063" trl="Y">
+  <value column="Name" original="Depreciation First Year Conventions ">Depreciation First Year Conventions </value>
+  <value column="Description" original="Setup for depreciation Setups">Setup for depreciation Setups</value>
+ </row>
+ <row id="1000064" trl="Y">
+  <value column="Name" original="Depreciation Calculation Method">Depreciation Calculation Method</value>
+  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Calculation Methods used in depreciation expense calculation</value>
+ </row>
+ <row id="1000065" trl="Y">
+  <value column="Name" original="Accounts Payable">ระบบซื้อ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000066" trl="Y">
+  <value column="Name" original="Accounts Receivable">ระบบขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000067" trl="Y">
+  <value column="Name" original="Budget Control">งบประมาณ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000068" trl="Y">
+  <value column="Name" original="Bank and Check">ธนาคารและเช็ค</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000069" trl="Y">
+  <value column="Name" original="General Ledger">ระบบบัญชี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000070" trl="Y">
+  <value column="Name" original="Petty Cash">ระบบเงินสดย่อย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000071" trl="Y">
+  <value column="Name" original="Value Added Tax">ระบบภาษี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000072" trl="Y">
+  <value column="Name" original="Customer Relationship Management">ลูกค้าสัมพันธ์ (CRM)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000073" trl="Y">
+  <value column="Name" original="Advance System">ระบบเงินทดรองจ่าย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000074" trl="Y">
+  <value column="Name" original="Audit and Internal Control">ระบบตรวจสอบและควบคุมภายใน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000075" trl="Y">
+  <value column="Name" original="Inventory Control">สินค้าคงคลัง</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000076" trl="Y">
+  <value column="Name" original="Warehouse Management">การจัดการคลังสินค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000077" trl="Y">
+  <value column="Name" original="Campaign Management">ระบบเคมเปญ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000078" trl="Y">
+  <value column="Name" original="Purchase Order">ระบบจัดซื้อ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000079" trl="Y">
+  <value column="Name" original="AP Setup">การตั้งค่าระบบเจ้าหนี้ (AP)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000080" trl="Y">
+  <value column="Name" original="AR Setup">การตั้งค่าระบบลูกหนี้ (AR)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000081" trl="Y">
+  <value column="Name" original="CQ Setup">การตั้งค่าระบบธนาคารและเช็ค (CQ)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000082" trl="Y">
+  <value column="Name" original="GL Setup">การตั้งค่าบัญชีแยกประเภท (GL)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000083" trl="Y">
+  <value column="Name" original="IC Setup">การตั้งค่าระบบสินค้าและคลังสินค้า (IC)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000084" trl="Y">
+  <value column="Name" original="MC Setup">การตั้งค่าระบบการเงิน (MC)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000085" trl="Y">
+  <value column="Name" original="CRM Setup">การตั้งค่าระบบลูกค้าสัมพันธ์ (CRM)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000086" trl="Y">
+  <value column="Name" original="SO Setup">การตั้งค่าระบบพนักงาน (EP)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000087" trl="Y">
+  <value column="Name" original="Tax Setup">การตั้งค่าภาษี (TX)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000088" trl="Y">
+  <value column="Name" original="WH Setup">WH Setup</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000089" trl="Y">
+  <value column="Name" original="Credit Note (Vendor)">ใบลดหนี้ (ผู้จำหน่าย)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000090" trl="Y">
+  <value column="Name" original="Credit Note (Customer)">ใบลดหนี้ (ลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000091" trl="Y">
+  <value column="Name" original="BP Setup">การตั้งค่าบริษัทคู่ค้า (BP)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000092" trl="Y">
+  <value column="Name" original="Debit Note (Vendor)">ใบเพิ่มหนี้ (ผู้จำหน่าย)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000093" trl="Y">
+  <value column="Name" original="Debit Note (Customer)">ใบเพิ่มหนี้ (ลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000094" trl="Y">
+  <value column="Name" original="Billing (Customer)">การวางบิล (ลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000095" trl="Y">
+  <value column="Name" original="Billing (Vendor)">การวางบิล (ผู้จำหน่าย)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000096" trl="Y">
+  <value column="Name" original="Invoice / Tax Invoice">ใบแจ้งหนี้ / ใบกำกับภาษี (ลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000097" trl="Y">
+  <value column="Name" original="GMS Invoice Preprint Group">พิมพ์ใบแจ้งหนี้ (GMS)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000098" trl="Y">
+  <value column="Name" original="Credit Term">การกำหนดเครดิตเทอม</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000099" trl="Y">
+  <value column="Name" original="GMS Invoice by Customer Group">รายงานใบแจ้งหนี้ ตามกลุ่มลูกค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000100" trl="Y">
+  <value column="Name" original="GMS Invoices By Customer (Portrait)">รายงานใบแจ้งหนี้ตามลูกค้า(แนวตั้ง)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000101" trl="Y">
+  <value column="Name" original="GMS Invoices By DueTo Date">รายงานใบแจ้งหนี้ที่ครบกำหนดชำระตามวันที่ครบกำหนด</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000102" trl="Y">
+  <value column="Name" original="GMS Invoices DueTo By Organize">รายงานใบแจ้งหนี้ที่ครบกำหนดชำระตามหน่วยงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000103" trl="Y">
+  <value column="Name" original="GMS Invoices DueTo By Sale">รายงานใบแจ้งหนี้ที่ครบกำนดชำระตามพนักงานขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000104" trl="Y">
+  <value column="Name" original="GMS Invoices By DueTo">รายงานใบแจ้งหนี้ที่ครบกำหนดชำระ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000105" trl="Y">
+  <value column="Name" original="Invoices By Organize">รายงานใบแจ้งหนี้ตามหน่วยงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000106" trl="Y">
+  <value column="Name" original="GMS Invoice By Organize (Portrait)">รายงานใบแจ้งหนี้ตามหน่วยงาน(แนวตั้ง)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000107" trl="Y">
+  <value column="Name" original="GMS Invoice Pass Due By Customer">รายงานใบแจ้งหนี้ที่ค้างชำระตามลูกค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000108" trl="Y">
+  <value column="Name" original="GMS Invoice Pass Due By Organize">รายงานใบแจ้งหนี้ที่ค้างชำระตามหน่วยงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000109" trl="Y">
+  <value column="Name" original="GMS Invoice Pass Due By Sale">รายงานใบแจ้งหนี้ที่ค้างชำระตามพนักงานขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000110" trl="Y">
+  <value column="Name" original="GMS Invoice Pass Due By DueDate">รายงานใบแจ้งหนี้ที่ค้างชำระตามวันที่เอกสาร</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000111" trl="Y">
+  <value column="Name" original="GMS Invoice By Product Group Landscape">รายงานใบแจ้งหนี้ตามกลุ่มงาน(แนวนอน)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000112" trl="Y">
+  <value column="Name" original="GMS Invoice By Product Group (Portrait)">รายงานใบแจ้งหนี้ตามกลุ่มงาน(แนวตั้ง)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000113" trl="Y">
+  <value column="Name" original="GMS Invoice By Product (Landscape)">รายงานใบแจ้งหนี้ตามตำแหน่งงาน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000114" trl="Y">
+  <value column="Name" original="GMS Invoice By Product (Portrait)">รายงานใบแจ้งหนี้ตามตำแหน่งงาน(แนวตั้ง)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000115" trl="Y">
+  <value column="Name" original="GMS Invoice By Sale (Landscape)">รายงานใบแจ้งหนี้ตามพนักงานขาย(แนวนอน)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000116" trl="Y">
+  <value column="Name" original="GMS Invoice By Sale(Portrait)">รายงานใบแจ้งหนี้ตามพนักงานขาย(แนวตั้ง)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000117" trl="Y">
+  <value column="Name" original="GMS Invoice By status(Landscape)">รายงานใบแจ้งหนี้ตามสถานะเอกสาร(แนวนอน)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000118" trl="Y">
+  <value column="Name" original="GMS Invoice By Status (Portrait)">รายงานใบแจ้งหนี้ตามสถานะเอกสาร(แนวตั้ง)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000119" trl="Y">
+  <value column="Name" original="GMS Invoice Std">รายงานใบแจ้งหนี้ตามวันที่-เลขที่เอกสาร</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000120" trl="Y">
+  <value column="Name" original="Debit Note / Tax Invoice (Customer)">ใบเพิ่มหนี้ / ใบกำกับภาษี (ลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000121" trl="Y">
+  <value column="Name" original="GMS Invoice Preprint(small)">GMS Invoice Preprint (small)</value>
+  <value column="Description" original="ใบแจ้งหนี้ภาษาไทย สำหรับข้อมูลขนาดยาว">ใบแจ้งหนี้ภาษาไทย สำหรับข้อมูลขนาดยาว</value>
+ </row>
+ <row id="1000122" trl="Y">
+  <value column="Name" original="Check">เช็ค</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000123" trl="Y">
+  <value column="Name" original="Receipt/Tax Invoice">ใบเสร็จรับเงิน/ใบกำกับภาษี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000124" trl="Y">
+  <value column="Name" original="GMS Report Billing DueTo By Org">รายงานบิลขายเชื่อที่ครบกำหนดแยกตามลูกค้า</value>
+  <value column="Description" original="">รายงานบิลขายเชื่อที่ครบกำหนดแยกตามลูกค้า</value>
+ </row>
+ <row id="1000125" trl="Y">
+  <value column="Name" original="Customer Info">ข้อมูลลูกค้า</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000126" trl="Y">
+  <value column="Name" original="รายงานภาษีขาย">รายงานภาษีขาย</value>
+  <value column="Description" original="รายงานภาษีขาย">รายงานภาษีขาย</value>
+ </row>
+ <row id="1000127" trl="Y">
+  <value column="Name" original="Expense">ค่าใช้จ่าย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000128" trl="Y">
+  <value column="Name" original="ใบสำคัญทั่วไป">ใบสำคัญทั่วไป</value>
+  <value column="Description" original="ใบสำคัญทั่วไป">ใบสำคัญทั่วไป</value>
+ </row>
+ <row id="1000129" trl="Y">
+  <value column="Name" original="รายงานเช็คจ่ายล่วงหน้า">รายงานเช็คจ่ายล่วงหน้า</value>
+  <value column="Description" original="รายงานเช็คจ่ายล่วงหน้า">รายงานเช็คจ่ายล่วงหน้า</value>
+ </row>
+ <row id="1000130" trl="Y">
+  <value column="Name" original="รายงานการรับชำระหนี้ลูกหนี้รอเรียกเก็บ">รายงานการรับชำระหนี้ลูกหนี้รอเรียกเก็บ</value>
+  <value column="Description" original="รายงานการรับชำระหนี้ลูกหนี้รอเรียกเก็บ">รายงานการรับชำระหนี้ลูกหนี้รอเรียกเก็บ</value>
+ </row>
+ <row id="1000131" trl="Y">
+  <value column="Name" original="ใบแจ้งยอดบัญชีธนาคาร">ใบแจ้งยอดบัญชีธนาคาร</value>
+  <value column="Description" original="ใบแจ้งยอดบัญชีธนาคาร">ใบแจ้งยอดบัญชีธนาคาร</value>
+ </row>
+ <row id="1000132" trl="Y">
+  <value column="Name" original="รายงานการจ่ายชำระหนี้">รายงานการจ่ายชำระหนี้</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000133" trl="Y">
+  <value column="Name" original="GMS Trial Balance">รายงานงบทดลอง (ย่อ)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000134" trl="Y">
+  <value column="Name" original="รายงานบัญชีแยกประเภท">รายงานบัญชีแยกประเภท (GMS)</value>
+  <value column="Description" original="รายงานบัญชีแยกประเภท">รายงานบัญชีแยกประเภท</value>
+ </row>
+ <row id="1000135" trl="Y">
+  <value column="Name" original="GL Statement by Account (GMS)">รายงานบัญชีแยกประเภท - ชื่อบัญชี (GMS)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000136" trl="Y">
+  <value column="Name" original="งบทดลองแบบละเอียด">งบทดลองแบบละเอียด</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000137" trl="Y">
+  <value column="Name" original="ใบสำคัญจ่ายเงินสดย่อย">ใบสำคัญจ่ายเงินสดย่อย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000138" trl="Y">
+  <value column="Name" original="GL Statement by Account (GMS) - L">รายงานบัญชีแยกประเภท - ชื่อบัญชี (GMS)-L</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000139" trl="Y">
+  <value column="Name" original="รายงานใบแจ้งหนี้ที่ค้างชำระ(เลือกตามรหัสลูกค้า)">รายงานใบแจ้งหนี้ที่ค้างชำระ(เลือกตามรหัสลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000140" trl="Y">
+  <value column="Name" original="รายงานใบแจ้งหนี้ที่ค้างชำระ(เลือกตามหน่วยงาน)">รายงานใบแจ้งหนี้ที่ค้างชำระ(เลือกตามหน่วยงาน)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000141" trl="Y">
+  <value column="Name" original="รายงานการรับชำระตามใบเสร็จ">รายงานการรับชำระตามใบเสร็จ</value>
+  <value column="Description" original="รายงานการรับชำระตามใบเสร็จ">รายงานการรับชำระตามใบเสร็จ</value>
+ </row>
+ <row id="1000142" trl="Y">
+  <value column="Name" original="รายงานการรับชำระตามใบเสร็จ(ลูกค้า)">รายงานการรับชำระตามใบเสร็จ(ลูกค้า)</value>
+  <value column="Description" original="รายงานการรับชำระตามใบเสร็จ(เลือกตามลูกค้า)">รายงานการรับชำระตามใบเสร็จ(เลือกตามลูกค้า)</value>
+ </row>
+ <row id="1000143" trl="Y">
+  <value column="Name" original="งบกำไรขาดทุน 19/03/08">งบกำไรขาดทุน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000144" trl="Y">
+  <value column="Name" original="งบดุล 19/03/08">งบดุล 19/03/08</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000145" trl="Y">
+  <value column="Name" original="สมุดรายวันทั่วไป">สมุดรายวันทั่วไป</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000146" trl="Y">
+  <value column="Name" original="GMS - Invoice (Customer) - Book 1">GMS - ใบแจ้งหนี้ (ลูกค้า) - Book 1</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000147" trl="Y">
+  <value column="Name" original="GMS - Invoice (Customer) - Book 2">GMS - ใบแจ้งหนี้ (ลูกค้า) - Book 2</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000148" trl="Y">
+  <value column="Name" original="GMS - Invoice (Customer) - Book 3">GMS - ใบแจ้งหนี้ (ลูกค้า) - Book 3</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000149" trl="Y">
+  <value column="Name" original="GMS - Invoice (Customer) - Book 4">GMS - ใบแจ้งหนี้ (ลูกค้า) - Book 4</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000150" trl="Y">
+  <value column="Name" original="GMS - Credit Note (Customer)">GMS - ใบลดหนี้ (ลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000151" trl="Y">
+  <value column="Name" original="GMS - Credit Note/Tax Invoice (Customer)">GMS - ใบลดหนี้/ใบกำกับภาษี (ลูกค้า)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000152" trl="Y">
+  <value column="Name" original="GMS - Debit Note (Cusomer)">GMS - ใบเพิ่มหนี้ (ลูกหนี้)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000153" trl="Y">
+  <value column="Name" original="GMS - Debit Note/Tax Invoice">GMS - ใบเพิ่มหนี้/ใบกำกับภาษี (ลูกหนี้)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000154" trl="Y">
+  <value column="Name" original="GMS - AP Invoice (Vendor) ">GMS - AP ใบแจ้งหนี้ (ผู้จำหน่าย)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000155" trl="Y">
+  <value column="Name" original="GMS - AT Invoice/Tax Invoice (Vendor)">GMS - AT ใบแจ้งหนี้/ใบกำกับภาษี (ผู้จำหน่าย)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000156" trl="Y">
+  <value column="Name" original="GMS">GMS</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000157" trl="Y">
+  <value column="Name" original="Bank Statement Check">ตรวจสอบรายการเดินบัญชี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000158" trl="Y">
+  <value column="Name" original="Vendor Details (BPM)">ข้อมูลผู้จำหน่าย/เจ้าหนี้ (BPM)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000159" trl="Y">
+  <value column="Name" original="ALL AR Invoice">ALL AR Invoice</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000160" trl="Y">
+  <value column="Name" original="งบกำไรขาดทุน (ตามหน่วยงาน)">งบกำไรขาดทุน (ตามหน่วยงาน) [new!!] - 30/04/2551</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000161" trl="Y">
+  <value column="Name" original="Bank Statement (Payment)">รายการเดินบัญชีธนาคาร (ด้านจ่าย)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000162" trl="Y">
+  <value column="Name" original="รายงานการสั่งซื้อแบบสรุป">รายงานการสั่งซื้อแบบสรุป</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000163" trl="Y">
+  <value column="Name" original="รายงานการสั่งซื้อแบบสรุป(ตามPo)">รายงานการสั่งซื้อแบบละเอียด(ตามเลขที่เอกสาร)</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000164" trl="Y">
+  <value column="Name" original="New GL Journal">บัญชีแยกประเภท [new!!] - 30/04/2551</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000165" trl="Y">
+  <value column="Name" original="Cash Journal Pay Back">จ่ายคืนเงินสดย่อย [new!!] - 30/4/2551</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000166" trl="Y">
+  <value column="Name" original="รายงานบัญชีแยกประเภท (ชื่อบัญชี) ">รายงานบัญชีแยกประเภท (ชื่อบัญชี) [new!!] - 30/04/2551</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000167" trl="Y">
+  <value column="Name" original="GMS_AR_396">รายงานใบแจ้งหนี้ (ลูกค้า) [396]</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000168" trl="Y">
+  <value column="Name" original="GMS Expense Report ">รายงานค่าใช้จ่าย [new!!] - 30/04/2551</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000169" trl="Y">
+  <value column="Name" original="GMS_AP_390_01">รายงานเจ้าหนี้คงค้าง (ตามเอกสาร) [new!!] - 30/04/2551</value>
+  <value column="Description" original="รายงานเจ้าหนี้คงค้าง (ตามเอกสาร)"></value>
+ </row>
+ <row id="1000170" trl="Y">
+  <value column="Name" original="สมุดรายวันเงินสด">สมุดรายวันเงินสด</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000171" trl="Y">
+  <value column="Name" original="สมุดรายวันจ่าย">สมุดรายวันจ่าย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000172" trl="Y">
+  <value column="Name" original="สมุดรายวันรับ">สมุดรายวันรับ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000173" trl="Y">
+  <value column="Name" original="สมุดรายวันธนาคาร">สมุดรายวันธนาคาร</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000174" trl="Y">
+  <value column="Name" original="สมุดรายวันซื้อ">สมุดรายวันซื้อ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000175" trl="Y">
+  <value column="Name" original="สมุดรายวันขาย">สมุดรายวันขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000176" trl="Y">
+  <value column="Name" original="Rpt AR Invoice / Tax Invoice ">Rpt AR Invoice / Tax Invoice </value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000177" trl="Y">
+  <value column="Name" original="Reports Purchase System">รายงานระบบจัดซื้อ</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000178" trl="Y">
+  <value column="Name" original="Reports Sale System">รายงานระบบขาย</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000179" trl="Y">
+  <value column="Name" original="Reports Finance System">รายงานระบบการเงิน</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000180" trl="Y">
+  <value column="Name" original="Reports Accounting System">รายงานระบบบัญชี</value>
+  <value column="Description" original=""></value>
+ </row>
+ <row id="1000181" trl="Y">
+  <value column="Name" original="รายการภาษีซื้อ">รายการภาษีซื้อ</value>
+  <value column="Description" original=""></value>
+ </row>
+</adempiereTrl>

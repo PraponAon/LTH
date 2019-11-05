@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saeree(r) Release 3.5.0_2007-07-13 -Saeree Smart Suite ERP,CRM- (c) 1999-2008 Grandlinux Solution Co.,ltd. (r); Implementation: 2008-06-01 - Grandlinux Solution Co.,Ltd.-->
+<!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.com/dtd/adempiereTrl.dtd">-->
+<adempiereTrl language="th_TH" table="AD_Process_Para">
+ <row id="227" trl="Y">
+  <value column="Name" original="Delete existing Accounting Entries">Delete existing Accounting Entries</value>
+  <value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">The selected accounting entries will be deleted!  DANGEROUS !!!</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="233" trl="Y">
+  <value column="Name" original="Pricelist Version">Pricelist Version</value>
+  <value column="Description" original="Only used if Price List is used to set future/standard cost price">Only used if Price List is used to set future cost price</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="302" trl="Y">
+  <value column="Name" original="Overwrite Payment Rule">Target Payment Rule</value>
+  <value column="Description" original="Overwrite how to pay the invoice">How you pay the invoice</value>
+  <value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">The Payment Rule indicates the method of invoice payment.</value>
+ </row>
+ <row id="315" trl="Y">
+  <value column="Name" original="From User">From User</value>
+  <value column="Description" original="Send EMail from user">Send EMail from user</value>
+  <value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">The email is sent from the user selected - otherwise it is sent from the request email address of the client</value>
+ </row>
+ <row id="452" trl="Y">
+  <value column="Name" original="Maintenance Mode">Maintenance Mode</value>
+  <value column="Description" original="Language Maintenance Mode">Language Maintenance Mode</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="467" trl="Y">
+  <value column="Name" original="Existing Organization">หน่วยงานที่มีอยู่แล้ว</value>
+  <value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">หน่วยงานภายในบริษัท - ตั้งค่าให้ว่างไว้ถ้าคุณต้องการสร้างหน่วยงานใหม่</value>
+  <value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">หน่วยงาน คือหน่วยหนึ่งของบริษัทหรือนิติบุคคลของคุณ - ตัวอย่างเช่น ร้านค้า, แผนก  คุณสามารถใช้ข้อมูลร่วมกันระหว่างหน่วยงานต่างๆได้</value>
+ </row>
+ <row id="469" trl="Y">
+  <value column="Name" original="Limit Access to Role">จำกัดการเข้าถึงตามบทบาท</value>
+  <value column="Description" original="If no Role is selected, grant access to all (non-manual) roles of the Client">ถ้าไม่มีบทบาทถูกเลือกไว้  จะอนุญาตให้ทุกบทบาท (ที่ไม่ได้ทำงานด้วยมือ) ในบริษัทเข้าถึงได้</value>
+  <value column="Help" original="The Role determines security and access a user who has this Role will have in the System.">บทบาท นั้นเป็นตัวกำหนดความปลอดภัยและการเข้าถึงที่ผู้ใช้ที่มีบทบาทนั้นจะใช้ได้ในระบบ</value>
+ </row>
+ <row id="493" trl="Y">
+  <value column="Name" original="New User/Contact">New User/Contact</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">User within the system - Internal or Business Partner Contact</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">The User identifies a unique user in the system. This could be an internal user or a business partner contact</value>
+ </row>
+ <row id="494" trl="Y">
+  <value column="Name" original="New Workflow Responsible">New Workflow Responsible</value>
+  <value column="Description" original="Responsible for Workflow Execution">Responsible for Workflow Execution</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.</value>
+ </row>
+ <row id="496" trl="Y">
+  <value column="Name" original="New User/Contact">New User/Contact</value>
+  <value column="Description" original="User within the system - Internal or Business Partner Contact">User within the system - Internal or Business Partner Contact</value>
+  <value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">The User identifies a unique user in the system. This could be an internal user or a business partner contact</value>
+ </row>
+ <row id="497" trl="Y">
+  <value column="Name" original="New Workflow Responsible">New Workflow Responsible</value>
+  <value column="Description" original="Responsible for Workflow Execution">Responsible for Workflow Execution</value>
+  <value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.</value>
+ </row>
+ <row id="523" trl="Y">
+  <value column="Name" original="Default Sales Rep">Default Sales Rep</value>
+  <value column="Description" original="If not defined on Business Partner Level">If not defined on Business Partner Level</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="524" trl="Y">
+  <value column="Name" original="Dunning Currency">Dunning Currency</value>
+  <value column="Description" original="Currency to create Dunning Letters">Currency to create Dunning Letters</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Shipment Date">Shipment Date</value>
+  <value column="Description" original="Date printed on shipment">Date printed on shipment</value>
+  <value column="Help" original="The Shipment Date indicates the date printed on the shipment.">The Shipment Date indicates the date printed on the shipment.</value>
+ </row>
+ <row id="53030" trl="N">
+  <value column="Name" original="New Product">NewProduct</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Action">Action</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Includes only the Tabs that Insert records">IsInsertRecord</value>
+  <value column="Description" original="Generated Export Format for the Tabs with Insert Record is Yes">Generated Export Format for the Tabs with Insert Record is Yes</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Includes only the mandatory columns">IsMandatory</value>
+  <value column="Description" original="Generated an Export Format Line  if the column is mandatory ">Generated an Export Format Line  if the column is mandatory </value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000003" trl="Y">
+  <value column="Name" original="Date From">Date From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000004" trl="Y">
+  <value column="Name" original="Date To">Date To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000020" trl="Y">
+  <value column="Name" original="Document No">Document No</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000021" trl="Y">
+  <value column="Name" original="Document No">Document No</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000022" trl="Y">
+  <value column="Name" original="Invoice Service">Invoice Service</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000040" trl="Y">
+  <value column="Name" original="Date To">Client</value>
+  <value column="Description" original="Date To"></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000041" trl="Y">
+  <value column="Name" original="Client">Client</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000043" trl="Y">
+  <value column="Name" original="Date From">Date From</value>
+  <value column="Description" original="Date From">Date From</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000047" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original="Date To">Date To</value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000048" trl="Y">
+  <value column="Name" original="AD_Client_ID">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000049" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000050" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000051" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000052" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000053" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000054" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000055" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000056" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000057" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000058" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000059" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000060" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000061" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000062" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000063" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000067" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000068" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000069" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000071" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000072" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000073" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000074" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000075" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000076" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000077" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000078" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000079" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000080" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000081" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000082" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000083" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000084" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000086" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000087" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000088" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000089" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000090" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000091" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000092" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000093" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000094" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000095" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000096" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000097" trl="Y">
+  <value column="Name" original="Client">AD_Client_ID</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000098" trl="Y">
+  <value column="Name" original="Date_From">Date_From</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000099" trl="Y">
+  <value column="Name" original="Date_To">Date_To</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+ <row id="1000282" trl="Y">
+  <value column="Name" original="Client">บริษัท</value>
+  <value column="Description" original=""></value>
+  <value column="Help" original=""></value>
+ </row>
+</adempiereTrl>

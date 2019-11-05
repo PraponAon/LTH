@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saeree(r) Release 3.5.0_2007-07-13 -Saeree Smart Suite ERP,CRM- (c) 1999-2008 Grandlinux Solution Co.,ltd. (r); Implementation: 2008-06-01 - Grandlinux Solution Co.,Ltd.-->
+<!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.com/dtd/adempiereTrl.dtd">-->
+<adempiereTrl language="th_TH" table="AD_PrintFormatItem">
+ <row id="2147" trl="Y">
+  <value column="PrintName" original=""></value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="2148" trl="Y">
+  <value column="PrintName" original=""></value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="2325" trl="Y">
+  <value column="PrintName" original=""></value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="2326" trl="Y">
+  <value column="PrintName" original=""></value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="2327" trl="Y">
+  <value column="PrintName" original=""></value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="1006368" trl="Y">
+  <value column="PrintName" original="ใบรับสินค้า">ใบรับสินค้า</value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="1007235" trl="Y">
+  <value column="PrintName" original="">เอกสารอ้างอิง</value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="1007425" trl="Y">
+  <value column="PrintName" original=""></value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+ <row id="1007787" trl="Y">
+  <value column="PrintName" original=""></value>
+  <value column="PrintNameSuffix" original=""></value>
+ </row>
+</adempiereTrl>
