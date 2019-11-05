@@ -1,2 +1,2 @@
-Language for import into ADempiere Thai ui
-only Label, Menu, Element..
+for import into ADempiere Thai Lang
+only Label, Menu, Element, window, tab, ..
